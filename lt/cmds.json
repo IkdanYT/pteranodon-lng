@@ -1,0 +1,207 @@
+{
+  "administrator": "Administratorius",
+  "user": "Naudotojas",
+  "server_owner": "Serverio savininkas",
+  "bot_creator": "Bot kūrėjas",
+  "miscelaneous": "Netinkamas",
+  "pterodactyl_admin": "Pterodaktilo administratorius",
+  "pterodactyl": "Pterodaktilas",
+  "common": {
+    "search_server_*": "Ieškoti serverio pagal pavadinimą, uuidą, external_id",
+    "valid": "Galioja",
+    "invalid": "Neleistinas",
+    "error": "Klaida",
+    "refresh": "Atnaujinti",
+    "start": "Imti",
+    "restart": "Paleisti",
+    "stop": "Sustoti, sustok",
+    "kill": "Nužudyti",
+    "cmd_sent": "Komanda išsiųsta"
+  },
+  "errors": {
+    "perm_error": "Neturite teisės naudoti šios komandos.",
+    "perm_error_has": "Jūsų teisių lygis yra {{level}} ({{levelName}})",
+    "perm_error_req": "Šiai komandai reikia {{level}} lygio ({{levelName}})",
+    "timeout": "Skirtasis laikas",
+    "server_susp": "Serveris sustabdytas",
+    "server_off": "Serveris neprisijungęs",
+    "no_msg": "Negautas joks pranešimas",
+    "no_res": "Rezultatų nerasta",
+    "try_again": "Pabandyk dar kartą",
+    "inv_client_token": "Neleistinas kliento atpažinimo ženklas",
+    "inv_admin_token": "Neleistinas administravimo atpažinimo ženklas",
+    "not_set_client_token": "Nenustatytas kliento atpažinimo ženklas",
+    "not_set_admin_token": "Nenustatyti administratoriaus atpažinimo ženklo",
+    "create_new_token": "Kurti naują atpažinimo ženklo atpažinimo ženklo",
+    "api_page": "\"Access API\" puslapis",
+    "set_new_token": "Nustatyti naują atpažinimo ženklo su '/userconf'",
+    "server_down": "Serveris uždarytas",
+    "error_occurred": "Įvyko klaida",
+    "invalid_api_token": "Neleistinas API atpažinimo ženklas"
+  },
+  "not_found": {
+    "main": "Nerasta",
+    "nest": "Lizdų nerasta",
+    "egg": "Kiaušinių nerasta",
+    "server": "Serverių nerasta",
+    "user": "Vartotojų nerasta",
+    "template": "Šablonas nerastas",
+    "node": "Mazgas nerastas",
+    "owner": "Savininkas nerastas",
+    "allocation": "Asignavimų nerasta"
+  },
+  "pagination": {
+    "page": "{{page}} puslapis / {{pages}}",
+    "refresh": "Atnaujinti",
+    "back": "Nugara",
+    "next": "Kitą"
+  },
+  "help": {
+    "main": "Pateikia visas turimas komandas ir jų aprašymus",
+    "category": "{{category}} Komandos"
+  },
+  "set": {
+    "main": "Serverio parametrai",
+    "settings": "Serverio parametrai",
+    "admin_roles": "Administratoriaus vaidmenys",
+    "lng": "Kalba",
+    "set_lng": "Nustatyti kalbą",
+    "changed_lng": "Kalba pakeista į {{lng}}",
+    "admin_role": {
+      "main": "Administratoriaus vaidmenų įtraukimas arba šalinimas",
+      "add": "Administratoriaus vaidmens įtraukimas",
+      "rem": "Administratoriaus vaidmens šalinimas",
+      "add_role": "Vaidmuo, kurį reikia įtraukti",
+      "rem_role": "Vaidmuo, kurį reikia pašalinti",
+      "alrd_set": "Administravimo vaidmuo {{role}} jau nustatytas",
+      "not_set": "Administravimo vaidmuo {{role}} nenustatytas naudoti",
+      "added_role": "Pridėta administratoriaus vaidmuo: {{role}}",
+      "removed_role": "Pašalintas administratoriaus vaidmuo: {{role}}",
+      "all_roles": "Visi administratoriaus vaidmenys: {{roles}}"
+    },
+    "tokens": "Žetonų",
+    "token": {
+      "main": "Būtinų atpažinimo žetonų nustatymas",
+      "client": "Kliento atpažinimo ženklas (jei naudojate su administratoriaus atpažinimo ženklo naudojimu administratoriaus abonemente)",
+      "admin": "Administravimo atpažinimo ženklas (naudokite tik tuo atveju, jei turite pterodaktilo administratoriaus teisių)",
+      "show": "Rodyti parametrus",
+      "client_token": "Kliento atpažinimo ženklas: {{valid}}",
+      "admin_token": "Administravimo atpažinimo ženklas: {{valid}}",
+      "success": "Sėkmingai patvirtinti ir nustatyti žetonai",
+      "invalid": "Pateiktas neleistinas (-ai) atpažinimo ženklas (-ai)"
+    },
+    "embedcolor": {
+      "main": "Nustatyti įdėjimo spalvą",
+      "color": "Įdėjimo spalva",
+      "set_color": "Nustatyti įdėjimo spalvą: {{color}}"
+    }
+  },
+  "reboot": {
+    "main": "Perkrovti botą",
+    "rebooting": "Roboto perkrovimas"
+  },
+  "rename": {
+    "main": "Pervardyti serverį.",
+    "name": "Naujas serverio pavadinimas"
+  },
+  "userconf": {
+    "main": "Vartotojo parametrai",
+    "client_token": "Pterodactyl client API atpažinimo ženklas",
+    "admin": "Administratoriams nereikia naudoti šios komandos. Vietoj to naudojamas serverio API atpažinimo ženklas.",
+    "settings": "Vartotojo parametrai",
+    "token": "Atpažinimo ženklas",
+    "not_set": "Nenustatyta",
+    "token_set": "Atpažinimo ženklas galioja ir sėkmingai nustatytas",
+    "token_invalid": "Atpažinimo ženklas neleistinas"
+  },
+  "send": {
+    "main": "Komandos siuntimas į serverį",
+    "command": "Komanda, kurią norite siųsti į serverį"
+  },
+  "ping": {
+    "main": "Bot latentinė",
+    "discord_latency": "Discord API latentinis"
+  },
+  "mylevel": {
+    "main": "Suteikia jūsų teisių lygį",
+    "perm_level": "Jūsų teisių lygis yra: {{level}} - {{levelName}}"
+  },
+  "validate": "Patvirtinti",
+  "servers": {
+    "main": "Rodyti informaciją apie savo serverius ir juos valdyti",
+    "create_backup": "Kurti atsarginę kopiją",
+    "send_command": "Komanda Siųsti",
+    "console": "Paguosti",
+    "console_no_update": "Konsolė (neatnaujinta)",
+    "backup_created": "Sukurta atsarginė kopija",
+    "enter_cmd": "Įvesti komandą",
+    "option": "{{nr}} variantas",
+    "option_1": "Siųsti komandą tiesiogiai pokalbio metu. Naudokite tik tuo atveju, jei kanale pasitikite žmonėmis, nes jis bus rodomas pokalbyje sekundę.",
+    "option_2": "Siųsti komandą naudojant \"/siųsti\"",
+    "note": "Nata",
+    "note_1": "Jei pasirinksite 2 parinktį, turėsite palaukti 60-ųjų arba pokalbio metu atšaukti, kad nepradėsite siųsti komandos.",
+    "note_2": "\"/send\" naudojimas nelaikomas komanda ir gali būti naudojamas betarpiškai.",
+    "sel_server": "Pasirinkite serverį",
+    "search_multiple_res": "Ieška pateikė kelis rezultatus. Pasirinkite vieną."
+  },
+  "template": {
+    "main": "Tvarkyti šablonus",
+    "server": "Tvarkyti serverio šabloną",
+    "create": "Šablono kūrimas",
+    "delete": "Šablono naikinimas",
+    "show": "Rodyti šablonus",
+    "name": "Šablono pavadinimas",
+    "cpu": "Procesoriaus limito nustatymas (neribotas numatytasis)",
+    "memory": "ATMINTIES limito nustatymas (neribotas numatytasis)",
+    "disk": "DISKO limito nustatymas (neribotas numatytasis)",
+    "swap": "SWAP limito nustatymas (neribotas numatytasis)",
+    "backup": "Atsarginio kopijavimo limito nustatymas (0 pagal numatytuosius nustatymus)",
+    "allocation": "Nustatyti paskirstymo limitą (0 pagal numatytuosius nustatymus)",
+    "database": "Duomenų bazės limito nustatymas (0 pagal numatytuosius nustatymus)",
+    "sel_nest": "Pasirinkite šio šablono lizdą",
+    "sel_egg": "Pasirinkite šio šablono kiaušinį",
+    "sel_docker": "Pasirinkite šio šablono docker vaizdą",
+    "type_value": "Įveskite savo reikšmę pokalbyje",
+    "for_default": "Numatytam naudojimui {{default}} ir tuščiam naudojimui {{empty}}",
+    "rules": "Taisyklės",
+    "default_val": "Numatytoji reikšmė",
+    "success_del": "Sėkmingai panaikintas šablonas"
+  },
+  "create": {
+    "main": "Kurti naują vartotoją arba serverį",
+    "user": "Vartotojo kūrimas",
+    "email": "Vartotojo el. pašto adresas",
+    "username": "Vartotojo vardas",
+    "first_name": "Vartotojo vardas",
+    "last_name": "Vartotojo pavardė",
+    "admin": "Ar vartotojo administratorius (numatytasis klaidingas)",
+    "password": "Vartotojo slaptažodis. Jei nenustatyta, vartotojui bus išsiųstas el. laiškas su saitu paskyrai nustatyti",
+    "server": "Serverio kūrimas",
+    "template": "Serverio šablonas",
+    "name": "Serverio pavadinimas",
+    "node": "Mazgo, kuriame norite sukurti serverį, pavadinimas",
+    "owner": "Savininko vartotojo vardas",
+    "sel_node": "Pasirinkti mazgą",
+    "sel_owner": "Pasirinkti serverio savininką",
+    "no_free_alloc": "Nemokamų asignavimų nerasta"
+  },
+  "console": "Serverio konsolė",
+  "ausers": {
+    "main": "Rodyti informaciją apie visus vartotojus ir juos valdyti",
+    "username": "Ieškoti vartotojo pagal vartotojo vardą",
+    "email": "Ieškoti vartotojo el. paštu"
+  },
+  "aservers": {
+    "main": "Rodyti informaciją apie visus serverius ir juos valdyti",
+    "name": "Ieškoti serverio pagal pavadinimą"
+  },
+  "anodes": {
+    "main": "Rodyti informaciją apie visus mazgus",
+    "name": "Ieškoti mazgo pagal pavadinimą",
+    "uuid": "Ieškoti mazgo pagal uuid"
+  },
+  "aeggs": {
+    "main": "Rodyti informaciją apie visus kiaušinius",
+    "sel_nest": "Pasirinkite lizdą"
+  }
+}

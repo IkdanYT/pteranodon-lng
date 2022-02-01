@@ -1,0 +1,207 @@
+{
+  "administrator": "Administrator",
+  "user": "Użytkownik",
+  "server_owner": "Właściciel serwera",
+  "bot_creator": "Kreator botów",
+  "miscelaneous": "Różne",
+  "pterodactyl_admin": "Pterodaktyl Admin",
+  "pterodactyl": "Pterodaktyl",
+  "common": {
+    "search_server_*": "Wyszukaj serwer według nazwy, uuid external_id",
+    "valid": "Ważny",
+    "invalid": "Nieprawidłowy",
+    "error": "Błąd",
+    "refresh": "Odświeżyć",
+    "start": "Początek",
+    "restart": "Restart",
+    "stop": "Zatrzymać",
+    "kill": "Zabić",
+    "cmd_sent": "Polecenie wysłane"
+  },
+  "errors": {
+    "perm_error": "Nie masz uprawnień do używania tego polecenia.",
+    "perm_error_has": "Twój poziom uprawnień to {{level}} ({{levelName}})",
+    "perm_error_req": "To polecenie wymaga poziomu {{level}} ({{levelName}})",
+    "timeout": "Limit czasu",
+    "server_susp": "Serwer zawieszony",
+    "server_off": "Serwer w trybie offline",
+    "no_msg": "Nie otrzymano żadnej wiadomości",
+    "no_res": "Nie znaleziono wyników",
+    "try_again": "Spróbuj ponownie",
+    "inv_client_token": "Nieprawidłowy token klienta",
+    "inv_admin_token": "Nieprawidłowy token administratora",
+    "not_set_client_token": "Nie ustawiono tokenu klienta",
+    "not_set_admin_token": "Nie ustawiono tokenu administratora",
+    "create_new_token": "Utwórz nowy token w",
+    "api_page": "Strona interfejsu API dostępu",
+    "set_new_token": "Ustaw nowy token za pomocą \"/userconf\"",
+    "server_down": "Serwer jest wyłączony",
+    "error_occurred": "Wystąpił błąd",
+    "invalid_api_token": "Nieprawidłowy token interfejsu API"
+  },
+  "not_found": {
+    "main": "Nie znaleziono",
+    "nest": "Nie znaleziono gniazd",
+    "egg": "Nie znaleziono jaj",
+    "server": "Nie znaleziono serwerów",
+    "user": "Nie znaleziono użytkowników",
+    "template": "Nie znaleziono szablonu",
+    "node": "Nie znaleziono węzła",
+    "owner": "Nie znaleziono właściciela",
+    "allocation": "Nie znaleziono alokacji"
+  },
+  "pagination": {
+    "page": "Strona {{page}} / {{pages}}",
+    "refresh": "Odświeżyć",
+    "back": "Wstecz",
+    "next": "Następny"
+  },
+  "help": {
+    "main": "Podaje wszystkie dostępne polecenia i ich opisy",
+    "category": "{{category}} Polecenia"
+  },
+  "set": {
+    "main": "Ustawienia serwera",
+    "settings": "Ustawienia serwera",
+    "admin_roles": "Role administratora",
+    "lng": "Język",
+    "set_lng": "Ustaw język",
+    "changed_lng": "Język zmieniony na {{lng}}",
+    "admin_role": {
+      "main": "Dodawanie lub usuwanie ról administratora",
+      "add": "Dodawanie roli administratora",
+      "rem": "Usuwanie roli administratora",
+      "add_role": "Rola do dodania",
+      "rem_role": "Rola do usunięcia",
+      "alrd_set": "Rola administratora {{role}} jest już ustawiona",
+      "not_set": "Rola administratora {{role}} nie jest ustawiona do użycia",
+      "added_role": "Dodana rola administratora: {{role}}",
+      "removed_role": "Usunięto rolę administratora: {{role}}",
+      "all_roles": "Wszystkie role administratora: {{roles}}"
+    },
+    "tokens": "Tokeny",
+    "token": {
+      "main": "Ustawianie wymaganych tokenów",
+      "client": "Token klienta (jeśli jest używany z tokenem administratora, użyj konta administratora)",
+      "admin": "Token administratora (używaj tylko wtedy, gdy masz uprawnienia administratora pterodaktyla)",
+      "show": "Pokaż ustawienia",
+      "client_token": "Token klienta: {{valid}}",
+      "admin_token": "Token Administratora: {{valid}}",
+      "success": "Pomyślnie zweryfikowane i ustawione tokeny",
+      "invalid": "Dostarczone tokeny są nieprawidłowe"
+    },
+    "embedcolor": {
+      "main": "Ustawianie koloru osadzania",
+      "color": "Kolor osadzania",
+      "set_color": "Ustaw kolor osadzania: {{color}}"
+    }
+  },
+  "reboot": {
+    "main": "Uruchom ponownie bota",
+    "rebooting": "Ponowne uruchamianie bota"
+  },
+  "rename": {
+    "main": "Zmień nazwę serwera.",
+    "name": "Nowa nazwa serwera"
+  },
+  "userconf": {
+    "main": "Ustawienia użytkownika",
+    "client_token": "Token API klienta pterodaktyla",
+    "admin": "Administratorzy nie muszą używać tego polecenia. Zamiast tego używany jest token interfejsu API serwera.",
+    "settings": "Ustawienia użytkownika",
+    "token": "Żeton",
+    "not_set": "Nie ustawiono",
+    "token_set": "Token jest ważny i pomyślnie ustawiony",
+    "token_invalid": "Token jest nieprawidłowy"
+  },
+  "send": {
+    "main": "Wysyłanie polecenia do serwera",
+    "command": "Polecenie, które chcesz wysłać na serwer"
+  },
+  "ping": {
+    "main": "Opóźnienie bota",
+    "discord_latency": "Opóźnienie interfejsu API Discord"
+  },
+  "mylevel": {
+    "main": "Nadaje poziom uprawnień",
+    "perm_level": "Twój poziom uprawnień to: {{level}} - {{levelName}}"
+  },
+  "validate": "Walidować",
+  "servers": {
+    "main": "Wyświetlanie informacji o serwerach i kontrolowanie ich",
+    "create_backup": "Utwórz kopię zapasową",
+    "send_command": "Polecenie Wyślij",
+    "console": "Konsola",
+    "console_no_update": "Konsola (nieaktualizacja)",
+    "backup_created": "Utworzono kopię zapasową",
+    "enter_cmd": "Wprowadź polecenie",
+    "option": "Opcja {{nr}}",
+    "option_1": "Wyślij polecenie bezpośrednio na czacie. Używaj tylko wtedy, gdy ufasz osobom na kanale, ponieważ pojawi się on na czacie przez sekundę.",
+    "option_2": "Wyślij polecenie za pomocą \"/send\"",
+    "note": "Nuta",
+    "note_1": "Jeśli wybierzesz opcję 2, będziesz musiał poczekać 60 sekund lub wpisać anuluj na czacie, aby nie wyzwalać wysyłania polecenia.",
+    "note_2": "Użycie \"/send\" nie liczy się jako polecenie i może być używane bezgranicznie.",
+    "sel_server": "Wybierz serwer",
+    "search_multiple_res": "Wyszukiwanie przyniosło wiele wyników. Wybierz jedną z nich."
+  },
+  "template": {
+    "main": "Zarządzanie szablonami",
+    "server": "Zarządzanie szablonem serwera",
+    "create": "Tworzenie szablonu",
+    "delete": "Usuwanie szablonu",
+    "show": "Pokazywanie szablonów",
+    "name": "Nazwa szablonu",
+    "cpu": "Ustaw limit procesora (domyślnie nieograniczona)",
+    "memory": "Ustaw limit PAMIĘCI (domyślnie nieograniczona)",
+    "disk": "Ustaw limit DYSKU (domyślnie nieograniczona)",
+    "swap": "Ustaw limit SWAP (domyślnie nieograniczona)",
+    "backup": "Ustaw limit kopii zapasowej (domyślnie 0)",
+    "allocation": "Ustawianie limitu alokacji (domyślnie 0)",
+    "database": "Ustawianie limitu bazy danych (domyślnie 0)",
+    "sel_nest": "Wybierz gniazdo dla tego szablonu",
+    "sel_egg": "Wybierz jajko dla tego szablonu",
+    "sel_docker": "Wybierz obraz platformy dokowanej dla tego szablonu",
+    "type_value": "Wpisz swoją wartość na czacie",
+    "for_default": "Dla domyślnego użycia {{default}} i dla pustego użycia {{empty}}",
+    "rules": "Zasady",
+    "default_val": "Wartość domyślna",
+    "success_del": "Pomyślnie usunięty szablon"
+  },
+  "create": {
+    "main": "Tworzenie nowego użytkownika lub nowego serwera",
+    "user": "Tworzenie użytkownika",
+    "email": "Adres e-mail użytkownika",
+    "username": "Nazwa użytkownika",
+    "first_name": "Imię użytkownika",
+    "last_name": "Nazwisko użytkownika",
+    "admin": "Czy użytkownik jest administratorem (domyślnie fałsz)",
+    "password": "Hasło dla użytkownika. Jeśli nie zostanie ustawione, użytkownik otrzyma wiadomość e-mail z linkiem do skonfigurowania konta",
+    "server": "Tworzenie serwera",
+    "template": "Szablon serwera",
+    "name": "Nazwa serwera",
+    "node": "Nazwa węzła, dla którego chcesz utworzyć serwer",
+    "owner": "Nazwa użytkownika właściciela",
+    "sel_node": "Wybierz węzeł",
+    "sel_owner": "Wybierz właściciela serwera",
+    "no_free_alloc": "Nie znaleziono bezpłatnych przydziałów"
+  },
+  "console": "Konsola serwera",
+  "ausers": {
+    "main": "Wyświetlanie informacji o wszystkich użytkownikach i kontrolowanie ich",
+    "username": "Wyszukaj użytkownika według nazwy użytkownika",
+    "email": "Wyszukiwanie użytkownika przez e-mail"
+  },
+  "aservers": {
+    "main": "Pokaż informacje o wszystkich serwerach i kontroluj je",
+    "name": "Wyszukaj serwer według nazwy"
+  },
+  "anodes": {
+    "main": "Pokaż informacje o wszystkich węzłach",
+    "name": "Wyszukaj węzeł według nazwy",
+    "uuid": "Wyszukaj węzeł według uuid"
+  },
+  "aeggs": {
+    "main": "Pokaż informacje o wszystkich jajach",
+    "sel_nest": "Wybierz gniazdo"
+  }
+}

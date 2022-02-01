@@ -1,0 +1,207 @@
+{
+  "administrator": "Administrador",
+  "user": "Utilizador",
+  "server_owner": "Proprietário do servidor",
+  "bot_creator": "Criador de Bot",
+  "miscelaneous": "Miscelâneo",
+  "pterodactyl_admin": "Administrador de Pterodáctilo",
+  "pterodactyl": "Pterodáctilo",
+  "common": {
+    "search_server_*": "Procure servidor pelo nome, uuid, external_id",
+    "valid": "Válido",
+    "invalid": "Inválido",
+    "error": "Erro",
+    "refresh": "Atualizar",
+    "start": "Começar",
+    "restart": "Reiniciar",
+    "stop": "Parar",
+    "kill": "Matar",
+    "cmd_sent": "Comando enviado"
+  },
+  "errors": {
+    "perm_error": "Você não tem permissão para usar este comando.",
+    "perm_error_has": "Seu nível de permissão é {{level}} ({{levelName}})",
+    "perm_error_req": "Este comando requer nível {{level}} ({{levelName}})",
+    "timeout": "Timeout",
+    "server_susp": "Servidor suspenso",
+    "server_off": "Servidor off-line",
+    "no_msg": "Nenhuma mensagem recebida",
+    "no_res": "Nenhum resultado encontrado",
+    "try_again": "Tentar novamente",
+    "inv_client_token": "Token de cliente inválido",
+    "inv_admin_token": "Token de administração inválido",
+    "not_set_client_token": "Não definir token cliente",
+    "not_set_admin_token": "Não definir token de administração",
+    "create_new_token": "Criar novo token em",
+    "api_page": "Acesse a página da API",
+    "set_new_token": "Defina um novo token com '/userconf'",
+    "server_down": "Servidor está desligado",
+    "error_occurred": "Ocorreu um erro",
+    "invalid_api_token": "Token de API inválido"
+  },
+  "not_found": {
+    "main": "Não encontrado",
+    "nest": "Nenhum ninho encontrado",
+    "egg": "Nenhum ovo encontrado",
+    "server": "Nenhum servidor encontrado",
+    "user": "Nenhum usuário encontrou",
+    "template": "Modelo não encontrado",
+    "node": "Nó não encontrado",
+    "owner": "Proprietário não encontrado",
+    "allocation": "Nenhuma alocação encontrada"
+  },
+  "pagination": {
+    "page": "Página {{page}} / {{pages}}",
+    "refresh": "Atualizar",
+    "back": "Voltar",
+    "next": "Próximo"
+  },
+  "help": {
+    "main": "Dá todos os comandos disponíveis e suas descrições",
+    "category": "{{category}} Comandos"
+  },
+  "set": {
+    "main": "Configurações do servidor",
+    "settings": "Configurações do servidor",
+    "admin_roles": "Papéis administrativos",
+    "lng": "Idioma",
+    "set_lng": "Definir linguagem",
+    "changed_lng": "Linguagem alterada para {{lng}}",
+    "admin_role": {
+      "main": "Adicionar ou remover funções de administração",
+      "add": "Adicione um papel de administrador",
+      "rem": "Remova um papel de administrador",
+      "add_role": "O papel a acrescentar",
+      "rem_role": "O papel a remover",
+      "alrd_set": "Admin Role {{role}} já definido",
+      "not_set": "Admin Role {{role}} não definido para ser usado",
+      "added_role": "Papel de administração adicionado: {{role}}",
+      "removed_role": "Papel de administração removido: {{role}}",
+      "all_roles": "Todas as funções de administrador: {{roles}}"
+    },
+    "tokens": "Tokens",
+    "token": {
+      "main": "Defina os tokens necessários",
+      "client": "O token cliente (se usar com token administrativo usar conta administrativa)",
+      "admin": "O token administrativo (use somente se você tiver privilégios de administração pterodáctilo)",
+      "show": "Mostrar configurações",
+      "client_token": "Token do cliente: {{valid}}",
+      "admin_token": "Token de administração: {{valid}}",
+      "success": "Validados e definidos com sucesso e tokens definidos",
+      "invalid": "Fornecido token(s) inválido"
+    },
+    "embedcolor": {
+      "main": "Definir incorporar cor",
+      "color": "Incorporar cores",
+      "set_color": "Definir cor de incorporação: {{color}}"
+    }
+  },
+  "reboot": {
+    "main": "Reinicie o bot",
+    "rebooting": "Reiniciando o bot"
+  },
+  "rename": {
+    "main": "Renomeie um servidor.",
+    "name": "O novo nome do servidor"
+  },
+  "userconf": {
+    "main": "Configurações do usuário",
+    "client_token": "Token de API do cliente pterodáctilo",
+    "admin": "Os administradores não precisam usar este comando. O token API do servidor é usado em vez disso.",
+    "settings": "Configurações do usuário",
+    "token": "Símbolo",
+    "not_set": "Não definido",
+    "token_set": "O token é válido e bem definido",
+    "token_invalid": "Token é inválido"
+  },
+  "send": {
+    "main": "Envie um comando para o seu servidor",
+    "command": "Um comando que você deseja enviar para o servidor"
+  },
+  "ping": {
+    "main": "Latência do bot",
+    "discord_latency": "Latência discord API"
+  },
+  "mylevel": {
+    "main": "Dá seu nível de permissão",
+    "perm_level": "Seu nível de permissão é: {{level}} - {{levelName}}"
+  },
+  "validate": "Validar",
+  "servers": {
+    "main": "Mostre informações sobre seus servidores e controle-os",
+    "create_backup": "Criar backup",
+    "send_command": "Enviar comando",
+    "console": "Consolar",
+    "console_no_update": "Console (Não Atualização)",
+    "backup_created": "Backup criado",
+    "enter_cmd": "Digite um comando",
+    "option": "Opção {{nr}}",
+    "option_1": "Envie o comando diretamente no chat. Só use se você confiar nas pessoas no canal, pois ele vai aparecer no bate-papo por um segundo.",
+    "option_2": "Envie o comando usando '/enviar'",
+    "note": "Nota",
+    "note_1": "Se você escolher a opção 2, você terá que esperar 60s ou digitar cancelar no chat para não acionar o envio de comando.",
+    "note_2": "O uso de '/enviar' não conta como comando e pode ser usado de forma imensately.",
+    "sel_server": "Selecione um servidor",
+    "search_multiple_res": "A pesquisa forneceu vários resultados. Escolha um."
+  },
+  "template": {
+    "main": "Gerenciar modelos",
+    "server": "Gerenciar modelo de servidor",
+    "create": "Crie um modelo",
+    "delete": "Exclua um modelo",
+    "show": "Mostre um modelo",
+    "name": "Nome do modelo",
+    "cpu": "Definir o limite da CPU (padrão ilimitado)",
+    "memory": "Definir limite de MEMÓRIA (padrão ilimitado)",
+    "disk": "Definir limite de DISCO (padrão ilimitado)",
+    "swap": "Definir limite SWAP (padrão ilimitado)",
+    "backup": "Definir o limite de backup (0 por padrão)",
+    "allocation": "Definir limite de alocação (0 por padrão)",
+    "database": "Definir o limite do banco de dados (0 por padrão)",
+    "sel_nest": "Selecione um ninho para este modelo",
+    "sel_egg": "Selecione um ovo para este modelo",
+    "sel_docker": "Selecione uma imagem docker para este modelo",
+    "type_value": "Digite seu valor no chat",
+    "for_default": "Para uso padrão {{default}} e para uso vazio {{empty}}",
+    "rules": "Réguas",
+    "default_val": "Valor padrão",
+    "success_del": "Modelo excluído com sucesso"
+  },
+  "create": {
+    "main": "Crie um novo usuário ou servidor",
+    "user": "Crie um usuário",
+    "email": "Endereço de e-mail do usuário",
+    "username": "Nome do usuário",
+    "first_name": "Nome do usuário",
+    "last_name": "Sobrenome do usuário",
+    "admin": "É o administrador do usuário (padrão falso)",
+    "password": "Uma senha para o usuário. Se não for definido, o usuário receberá um e-mail com um link para configurar a conta",
+    "server": "Criar um servidor",
+    "template": "Modelo do servidor",
+    "name": "Nome do servidor",
+    "node": "Nome do nó que você deseja criar o servidor em",
+    "owner": "Nome de usuário do proprietário",
+    "sel_node": "Selecione um nó",
+    "sel_owner": "Selecione um proprietário para o servidor",
+    "no_free_alloc": "Não foram encontradas alocações gratuitas"
+  },
+  "console": "Console do servidor",
+  "ausers": {
+    "main": "Mostre informações sobre todos os usuários e controle-os",
+    "username": "Pesquisar por usuário por nome de usuário",
+    "email": "Pesquisar usuário por e-mail"
+  },
+  "aservers": {
+    "main": "Mostre informações sobre todos os servidores e controle-os",
+    "name": "Pesquisar servidor por nome"
+  },
+  "anodes": {
+    "main": "Mostrar informações sobre todos os nós",
+    "name": "Busca por nó por nome",
+    "uuid": "Busca por nó por uuid"
+  },
+  "aeggs": {
+    "main": "Mostre informações sobre todos os ovos",
+    "sel_nest": "Selecione um ninho"
+  }
+}

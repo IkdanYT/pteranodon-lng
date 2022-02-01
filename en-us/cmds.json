@@ -1,0 +1,201 @@
+{
+  "administrator": "Administrator",
+  "user": "User",
+  "server_owner": "Server Owner",
+  "bot_creator": "Bot Creator",
+  "miscelaneous": "Miscelaneous",
+  "pterodactyl_admin": "Pterodactyl Admin",
+  "pterodactyl": "Pterodactyl",
+  "common": {
+    "search_server_*": "Search for server by name, uuid, external_id",
+    "valid": "Valid",
+    "invalid": "Invalid",
+    "error": "Error",
+    "refresh": "Refresh",
+    "start": "Start",
+    "restart": "Restart",
+    "stop": "Stop",
+    "kill": "Kill",
+    "cmd_sent": "Command sent"
+  },
+  "errors": {
+    "perm_error": "You do not have permission to use this command.",
+    "perm_error_has": "Your permission level is {{level}} ({{levelName}})",
+    "perm_error_req": "This command requires level {{level}} ({{levelName}})",
+    "timeout": "Timeout",
+    "server_susp": "Server suspended",
+    "server_off": "Server offline",
+    "no_msg": "No message received",
+    "no_res": "No results found",
+    "try_again": "Try again",
+    "inv_client_token": "Invalid client token",
+    "inv_admin_token": "Invalid admin token",
+    "not_set_client_token": "Not set client token",
+    "not_set_admin_token": "Not set admin token",
+    "create_new_token": "Create new token in",
+    "api_page": "Access API page",
+    "set_new_token": "Set a new token with `/userconf`",
+    "server_down": "Server is down",
+    "error_occurred": "An error occurred",
+    "invalid_api_token": "Invalid API token"
+  },
+  "not_found": {
+    "main": "Not Found",
+    "nest": "No nests found",
+    "egg": "No eggs found",
+    "server": "No servers found",
+    "user": "No users found",
+    "template": "Template not found",
+    "node": "Node not found",
+    "owner": "Owner not found",
+    "allocation": "No allocations found"
+  },
+  "pagination": {
+    "page": "Page {{page}} / {{pages}}",
+    "refresh": "Refresh",
+    "back": "Back",
+    "next": "Next"
+  },
+  "help": {
+    "main": "Gives all the commands available and their descriptions",
+    "category": "{{category}} Commands"
+  },
+  "set": {
+    "main": "Server settings",
+    "settings": "Server settings",
+    "admin_roles": "Admin roles",
+    "lng": "Language",
+    "set_lng": "Set language",
+    "changed_lng": "Language changed to {{lng}}",
+    "admin_role": {
+      "main": "Add or remove admin roles",
+      "add": "Add an admin role",
+      "rem": "Remove an admin role",
+      "add_role": "The role to add",
+      "rem_role": "The role to remove",
+      "alrd_set": "Admin Role {{role}} already set",
+      "not_set": "Admin Role {{role}} not set to be used",
+      "added_role": "Added admin role: {{role}}",
+      "removed_role": "Removed admin role: {{role}}",
+      "all_roles": "All administrator roles: {{roles}}"
+    },
+    "tokens": "Tokens",
+    "token": {
+      "main": "Set the required tokens",
+      "client": "The client token (if using with admin token use admin account)",
+      "admin": "The admin token (use only if you have pterodactyl admin privileges)",
+      "show": "Show settings",
+      "client_token": "Client Token: {{valid}}",
+      "admin_token": "Admin Token: {{valid}}",
+      "success": "Succesfully validated and set tokens",
+      "invalid": "Provided token(s) invalid"
+    },
+    "embedcolor": {
+      "main": "Set embed color",
+      "color": "Embed color",
+      "set_color": "Set embed color: {{color}}"
+    }
+  },
+  "reboot": { "main": "Reboot the bot", "rebooting": "Rebooting the bot" },
+  "rename": {
+    "main": "Rename a server.",
+    "name": "The new name of the server"
+  },
+  "userconf": {
+    "main": "User settings",
+    "client_token": "Pterodactyl client API token",
+    "admin": "Admins don't need to use this command. The server API token is used instead.",
+    "settings": "User Settings",
+    "token": "Token",
+    "not_set": "Not set",
+    "token_set": "Token is valid and sucessfully set",
+    "token_invalid": "Token is invalid"
+  },
+  "send": {
+    "main": "Send a command to your server",
+    "command": "A command that you want to send to the server"
+  },
+  "ping": { "main": "Bot latency", "discord_latency": "Discord API Latency" },
+  "mylevel": {
+    "main": "Gives your permission level",
+    "perm_level": "Your permission level is: {{level}} - {{levelName}}"
+  },
+  "validate": "Validate",
+  "servers": {
+    "main": "Show information about your servers and control them",
+    "create_backup": "Create Backup",
+    "send_command": "Send Command",
+    "console": "Console",
+    "console_no_update": "Console (Not Updating)",
+    "backup_created": "Backup created",
+    "enter_cmd": "Enter a command",
+    "option": "Option {{nr}}",
+    "option_1": "Send the command directly in chat. Only use if you trust people in the channel, as it will show up in chat for a second.",
+    "option_2": "Send the command using `/send`",
+    "note": "Note",
+    "note_1": "If you choose option 2 you will either have to wait 60s or type cancel in the chat to not trigger sending of command.",
+    "note_2": "Using `/send` doesn't count as a command and can be used immeadiately.",
+    "sel_server": "Select a server",
+    "search_multiple_res": "Search has provided multiple results. Choose one."
+  },
+  "template": {
+    "main": "Manage templates",
+    "server": "Manage server template",
+    "create": "Create a template",
+    "delete": "Delete a template",
+    "show": "Show a templates",
+    "name": "Name of the template",
+    "cpu": "Set CPU limit (Unlimited default)",
+    "memory": "Set MEMORY limit (Unlimited default)",
+    "disk": "Set DISK limit (Unlimited default)",
+    "swap": "Set SWAP limit (Unlimited default)",
+    "backup": "Set backup limit (0 by default)",
+    "allocation": "Set allocation limit (0 by default)",
+    "database": "Set database limit (0 by default)",
+    "sel_nest": "Select a nest for this template",
+    "sel_egg": "Select an egg for this template",
+    "sel_docker": "Select a docker image for this template",
+    "type_value": "Type your value in the chat",
+    "for_default": "For default use {{default}} and for empty use {{empty}}",
+    "rules": "Rules",
+    "default_val": "Default value",
+    "success_del": "Successfully deleted template"
+  },
+  "create": {
+    "main": "Create a new user or server",
+    "user": "Create a user",
+    "email": "User email address",
+    "username": "User username",
+    "first_name": "User first name",
+    "last_name": "User last name",
+    "admin": "Is the user admin (default false)",
+    "password": "A password for the user. If not set, user will be sent an email with a link to set up the account",
+    "server": "Create a server",
+    "template": "Template of the server",
+    "name": "Name of the server",
+    "node": "Name of the node you want to create the server on",
+    "owner": "Username of the owner",
+    "sel_node": "Select a node",
+    "sel_owner": "Select an owner for the server",
+    "no_free_alloc": "No free allocations found"
+  },
+  "console": "Server console",
+  "ausers": {
+    "main": "Show information about all the users and control them",
+    "username": "Search for user by username",
+    "email": "Search for user by email"
+  },
+  "aservers": {
+    "main": "Show information about all the servers and control them",
+    "name": "Search for server by name"
+  },
+  "anodes": {
+    "main": "Show information about all the nodes",
+    "name": "Search for node by name",
+    "uuid": "Search for node by uuid"
+  },
+  "aeggs": {
+    "main": "Show information about all the eggs",
+    "sel_nest": "Select a nest"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "administrator": "Administrator",
+  "user": "Benutzer",
+  "server_owner": "Serverbesitzer",
+  "bot_creator": "Bot-Ersteller",
+  "miscelaneous": "Verschiedenes",
+  "pterodactyl_admin": "Pterodactyl Admin",
+  "pterodactyl": "Pterodaktylus",
+  "common": {
+    "search_server_*": "Suchen Sie nach Server anhand von Name, UUID external_id",
+    "valid": "Gültig",
+    "invalid": "Ungültig",
+    "error": "Fehler",
+    "refresh": "Auffrischen",
+    "start": "Anfangen",
+    "restart": "Neustarten",
+    "stop": "Aufhören",
+    "kill": "Töten",
+    "cmd_sent": "Befehl gesendet"
+  },
+  "errors": {
+    "perm_error": "Sie sind nicht berechtigt, diesen Befehl zu verwenden.",
+    "perm_error_has": "Ihre Berechtigungsstufe ist {{level}} ({{levelName}})",
+    "perm_error_req": "Dieser Befehl erfordert Stufe {{level}} ({{levelName}})",
+    "timeout": "Zeitüberschreitung",
+    "server_susp": "Server angehalten",
+    "server_off": "Server offline",
+    "no_msg": "Keine Nachricht empfangen",
+    "no_res": "Keine Ergebnisse gefunden",
+    "try_again": "Wiederholen",
+    "inv_client_token": "Ungültiges Clienttoken",
+    "inv_admin_token": "Ungültiges Administratortoken",
+    "not_set_client_token": "Clienttoken nicht festgelegt",
+    "not_set_admin_token": "Admin-Token nicht festlegen",
+    "create_new_token": "Neues Token erstellen in",
+    "api_page": "Seite \"Zugriff auf API\"",
+    "set_new_token": "Legen Sie ein neues Token mit '/userconf' fest",
+    "server_down": "Server ist ausgefallen",
+    "error_occurred": "Ein Fehler ist aufgetreten",
+    "invalid_api_token": "Ungültiges API-Token"
+  },
+  "not_found": {
+    "main": "Nicht gefunden",
+    "nest": "Keine Nester gefunden",
+    "egg": "Keine Eier gefunden",
+    "server": "Keine Server gefunden",
+    "user": "Keine Benutzer gefunden",
+    "template": "Vorlage nicht gefunden",
+    "node": "Knoten nicht gefunden",
+    "owner": "Besitzer nicht gefunden",
+    "allocation": "Keine Zuordnungen gefunden"
+  },
+  "pagination": {
+    "page": "Seite {{page}} / {{pages}}",
+    "refresh": "Auffrischen",
+    "back": "Zurück",
+    "next": "Nächster"
+  },
+  "help": {
+    "main": "Gibt alle verfügbaren Befehle und deren Beschreibungen an",
+    "category": "{{category}} Befehle"
+  },
+  "set": {
+    "main": "Servereinstellungen",
+    "settings": "Servereinstellungen",
+    "admin_roles": "Administratorrollen",
+    "lng": "Sprache",
+    "set_lng": "Sprache festlegen",
+    "changed_lng": "Sprache auf {{lng}} geändert",
+    "admin_role": {
+      "main": "Hinzufügen oder Entfernen von Administratorrollen",
+      "add": "Hinzufügen einer Administratorrolle",
+      "rem": "Entfernen einer Administratorrolle",
+      "add_role": "Die hinzuzufügende Rolle",
+      "rem_role": "Die zu entfernende Rolle",
+      "alrd_set": "Administratorrolle {{role}} bereits festgelegt",
+      "not_set": "Administratorrolle {{role}} nicht für die Verwendung festgelegt",
+      "added_role": "Admin-Rolle hinzugefügt: {{role}}",
+      "removed_role": "Admin-Rolle entfernt: {{role}}",
+      "all_roles": "Alle Administratorrollen: {{roles}}"
+    },
+    "tokens": "Token",
+    "token": {
+      "main": "Festlegen der erforderlichen Token",
+      "client": "Das Clienttoken (bei Verwendung mit Administratortoken Administratorkonto verwenden)",
+      "admin": "Das Admin-Token (nur verwenden, wenn Sie über Pterodactyl-Administratorrechte verfügen)",
+      "show": "Einstellungen anzeigen",
+      "client_token": "Client-Token: {{valid}}",
+      "admin_token": "Administrator-Token: {{valid}}",
+      "success": "Erfolgreich validierte und gesetzte Token",
+      "invalid": "Bereitgestellte Token ungültig"
+    },
+    "embedcolor": {
+      "main": "Einbettungsfarbe festlegen",
+      "color": "Farbe einbetten",
+      "set_color": "Einbettungsfarbe festlegen: {{color}}"
+    }
+  },
+  "reboot": {
+    "main": "Starten Sie den Bot neu",
+    "rebooting": "Neustart des Bots"
+  },
+  "rename": {
+    "main": "Benennen Sie einen Server um.",
+    "name": "Der neue Name des Servers"
+  },
+  "userconf": {
+    "main": "Benutzereinstellungen",
+    "client_token": "Pterodactyl-Client-API-Token",
+    "admin": "Administratoren müssen diesen Befehl nicht verwenden. Stattdessen wird das Server-API-Token verwendet.",
+    "settings": "Benutzereinstellungen",
+    "token": "Zeichen",
+    "not_set": "Nicht festgelegt",
+    "token_set": "Token ist gültig und erfolgreich gesetzt",
+    "token_invalid": "Token ist ungültig"
+  },
+  "send": {
+    "main": "Senden eines Befehls an den Server",
+    "command": "Ein Befehl, den Sie an den Server senden möchten"
+  },
+  "ping": {
+    "main": "Bot-Latenz",
+    "discord_latency": "Discord API Latenz"
+  },
+  "mylevel": {
+    "main": "Gibt Ihre Berechtigungsstufe an",
+    "perm_level": "Ihre Berechtigungsstufe ist: {{level}} - {{levelName}}"
+  },
+  "validate": "Validieren",
+  "servers": {
+    "main": "Zeigen Sie Informationen über Ihre Server an und kontrollieren Sie sie",
+    "create_backup": "Backup erstellen",
+    "send_command": "Befehl senden",
+    "console": "Konsole",
+    "console_no_update": "Konsole (wird nicht aktualisiert)",
+    "backup_created": "Backup erstellt",
+    "enter_cmd": "Geben Sie einen Befehl ein",
+    "option": "Variante {{nr}}",
+    "option_1": "Senden Sie den Befehl direkt im Chat. Nur verwenden, wenn Sie Personen im Kanal vertrauen, da er für eine Sekunde im Chat angezeigt wird.",
+    "option_2": "Senden Sie den Befehl mit '/send'",
+    "note": "Anmerkung",
+    "note_1": "Wenn Sie Option 2 wählen, müssen Sie entweder 60 Sekunden warten oder im Chat Abbrechen eingeben, um das Senden des Befehls nicht auszulösen.",
+    "note_2": "Die Verwendung von '/send' zählt nicht als Befehl und kann sofort verwendet werden.",
+    "sel_server": "Wählen Sie einen Server aus",
+    "search_multiple_res": "Die Suche hat mehrere Ergebnisse geliefert. Wählen Sie eine aus."
+  },
+  "template": {
+    "main": "Vorlagen verwalten",
+    "server": "Servervorlage verwalten",
+    "create": "Erstellen einer Vorlage",
+    "delete": "Löschen einer Vorlage",
+    "show": "Anzeigen einer Vorlage",
+    "name": "Name der Vorlage",
+    "cpu": "CPU-Limit festlegen (Unlimited-Standard)",
+    "memory": "Festlegen des SPEICHERlimits (Unbegrenzte Standardeinstellung)",
+    "disk": "Festlegen des DISK-Limits (Unbegrenzter Standardwert)",
+    "swap": "SWAP-Limit festlegen (Unbegrenzter Standardwert)",
+    "backup": "Backup-Limit festlegen (standardmäßig 0)",
+    "allocation": "Zuweisungslimit festlegen (standardmäßig 0)",
+    "database": "Festlegen des Datenbanklimits (standardmäßig 0)",
+    "sel_nest": "Auswählen einer Verschachtelung für diese Vorlage",
+    "sel_egg": "Wählen Sie ein Ei für diese Vorlage",
+    "sel_docker": "Auswählen eines Docker-Images für diese Vorlage",
+    "type_value": "Geben Sie Ihren Wert in den Chat ein",
+    "for_default": "Für die Standardverwendung {{default}} und für die leere Verwendung {{empty}}",
+    "rules": "Regeln",
+    "default_val": "Standardwert",
+    "success_del": "Vorlage erfolgreich gelöscht"
+  },
+  "create": {
+    "main": "Erstellen eines neuen Benutzers oder Servers",
+    "user": "Erstellen eines Benutzers",
+    "email": "E-Mail-Adresse des Benutzers",
+    "username": "Benutzername des Benutzers",
+    "first_name": "Vorname des Benutzers",
+    "last_name": "Nachname des Benutzers",
+    "admin": "Ist der Benutzer admin (Standard false)",
+    "password": "Ein Kennwort für den Benutzer. Wenn nicht festgelegt, erhält der Benutzer eine E-Mail mit einem Link zum Einrichten des Kontos",
+    "server": "Erstellen eines Servers",
+    "template": "Vorlage des Servers",
+    "name": "Name des Servers",
+    "node": "Name des Knotens, auf dem Sie den Server erstellen möchten",
+    "owner": "Benutzername des Eigentümers",
+    "sel_node": "Auswählen eines Knotens",
+    "sel_owner": "Auswählen eines Eigentümers für den Server",
+    "no_free_alloc": "Keine kostenlosen Zuteilungen gefunden"
+  },
+  "console": "Serverkonsole",
+  "ausers": {
+    "main": "Anzeigen von Informationen über alle Benutzer und Deren Steuerung",
+    "username": "Benutzer anhand des Benutzernamens suchen",
+    "email": "Suche nach Benutzer per E-Mail"
+  },
+  "aservers": {
+    "main": "Anzeigen von Informationen zu allen Servern und deren Steuerung",
+    "name": "Suche nach Server nach Name"
+  },
+  "anodes": {
+    "main": "Anzeigen von Informationen zu allen Knoten",
+    "name": "Knoten anhand des Namens suchen",
+    "uuid": "Suchen nach Knoten nach uuid"
+  },
+  "aeggs": {
+    "main": "Informationen über alle Eier anzeigen",
+    "sel_nest": "Auswählen einer Verschachtelung"
+  }
+}
