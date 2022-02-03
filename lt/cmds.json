@@ -51,7 +51,7 @@
     "allocation": "Asignavimų nerasta"
   },
   "pagination": {
-    "page": "{{page}} puslapis / {{pages}}",
+    "page": "Puslapis {{page}} / {{pages}}",
     "refresh": "Atnaujinti",
     "back": "Nugara",
     "next": "Kitą"
