@@ -2,8 +2,8 @@
   "administrator": "Ügyintéző",
   "user": "Felhasználó",
   "server_owner": "Kiszolgáló tulajdonosa",
-  "bot_creator": "Bot Creator",
-  "miscelaneous": "Miscelaneous",
+  "bot_creator": "Bot Készítője",
+  "miscelaneous": "Millisekundum",
   "pterodactyl_admin": "Pterodactyl Admin",
   "pterodactyl": "Őskori szárnyas gyík",
   "common": {
@@ -19,7 +19,7 @@
     "cmd_sent": "Elküldött parancs"
   },
   "errors": {
-    "perm_error": "Nincs engedélye a parancs használatára.",
+    "perm_error": "Nincs engedélyed a parancs használatára.",
     "perm_error_has": "Az Ön engedélyszintje {{level}} ({{levelName}})",
     "perm_error_req": "Ehhez a parancshoz {{level}} . szintre ({{levelName}}) van szükség.",
     "timeout": "Időkorlát",
@@ -52,8 +52,8 @@
   },
   "pagination": {
     "page": "Oldal {{page}} / {{pages}}",
-    "refresh": "Felfrissít",
-    "back": "Hát",
+    "refresh": "Lefrissít",
+    "back": "Vissza",
     "next": "Következő"
   },
   "help": {
@@ -98,7 +98,7 @@
   },
   "reboot": {
     "main": "Indítsa újra a botot",
-    "rebooting": "A robot újraindítása"
+    "rebooting": "A bot újraindítása"
   },
   "rename": {
     "main": "Nevezzen át egy kiszolgálót.",
@@ -120,7 +120,7 @@
   },
   "ping": {
     "main": "Bot késése",
-    "discord_latency": "Disszonáns API-késés"
+    "discord_latency": "Discord API-késés"
   },
   "mylevel": {
     "main": "Megadja az engedély szintjét",
