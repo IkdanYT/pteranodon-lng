@@ -193,7 +193,10 @@
   },
   "aservers": {
     "main": "Mostre informações sobre todos os servidores e controle-os",
-    "name": "Pesquisar servidor por nome"
+    "name": "Pesquisar servidor por nome",
+    "suspend": "Suspender",
+    "unsuspend": "Unsuspend",
+    "reinstall": "Reinstalar"
   },
   "anodes": {
     "main": "Mostrar informações sobre todos os nós",

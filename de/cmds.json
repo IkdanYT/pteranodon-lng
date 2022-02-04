@@ -193,7 +193,10 @@
   },
   "aservers": {
     "main": "Anzeigen von Informationen zu allen Servern und deren Steuerung",
-    "name": "Suche nach Server nach Name"
+    "name": "Suche nach Server nach Name",
+    "suspend": "Aufhängen",
+    "unsuspend": "Unverbrauch aufheben",
+    "reinstall": "Neuinstallieren"
   },
   "anodes": {
     "main": "Anzeigen von Informationen zu allen Knoten",

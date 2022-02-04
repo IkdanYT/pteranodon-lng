@@ -187,7 +187,10 @@
   },
   "aservers": {
     "main": "Show information about all the servers and control them",
-    "name": "Search for server by name"
+    "name": "Search for server by name",
+    "suspend": "Suspend",
+    "unsuspend": "Unsuspend",
+    "reinstall": "Reinstall"
   },
   "anodes": {
     "main": "Show information about all the nodes",

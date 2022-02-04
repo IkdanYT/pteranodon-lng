@@ -193,7 +193,10 @@
   },
   "aservers": {
     "main": "Az összes kiszolgálóval kapcsolatos információk megjelenítése és vezérlése",
-    "name": "Kiszolgáló keresése név szerint"
+    "name": "Kiszolgáló keresése név szerint",
+    "suspend": "Felfüggeszt",
+    "unsuspend": "Nem költött",
+    "reinstall": "Visszahelyez"
   },
   "anodes": {
     "main": "Az összes csomóponttal kapcsolatos információk megjelenítése",

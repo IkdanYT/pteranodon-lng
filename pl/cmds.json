@@ -193,7 +193,10 @@
   },
   "aservers": {
     "main": "Pokaż informacje o wszystkich serwerach i kontroluj je",
-    "name": "Wyszukaj serwer według nazwy"
+    "name": "Wyszukaj serwer według nazwy",
+    "suspend": "Zawiesić",
+    "unsuspend": "Unsuspend",
+    "reinstall": "Ponownie zainstalować"
   },
   "anodes": {
     "main": "Pokaż informacje o wszystkich węzłach",

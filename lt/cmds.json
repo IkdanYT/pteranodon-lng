@@ -193,7 +193,10 @@
   },
   "aservers": {
     "main": "Rodyti informaciją apie visus serverius ir juos valdyti",
-    "name": "Ieškoti serverio pagal pavadinimą"
+    "name": "Ieškoti serverio pagal pavadinimą",
+    "suspend": "Laikinai sustabdyti",
+    "unsuspend": "Unsuspend",
+    "reinstall": "Įdiegti"
   },
   "anodes": {
     "main": "Rodyti informaciją apie visus mazgus",

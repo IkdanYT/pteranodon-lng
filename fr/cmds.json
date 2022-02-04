@@ -193,7 +193,10 @@
   },
   "aservers": {
     "main": "Contrôle et informations des serveurs",
-    "name": "Rechercher le serveur par nom"
+    "name": "Rechercher le serveur par nom",
+    "suspend": "Suspendre",
+    "unsuspend": "Annuler la suspension",
+    "reinstall": "Réinstaller"
   },
   "anodes": {
     "main": "Informations sur les nœuds (nodes)",
