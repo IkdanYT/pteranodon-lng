@@ -137,10 +137,10 @@
     "enter_cmd": "Parancs megadása",
     "option": "{{nr}}. lehetőség",
     "option_1": "Küldje el a parancsot közvetlenül a csevegésben. Csak akkor használja, ha megbízik az emberekben a csatornában, mivel egy másodpercig megjelenik a csevegésben.",
-    "option_2": "Küldje el a parancsot a következő használatával: '/send'",
+    "option_2": "Küldje el a parancsot a következő használatával: {{cmd}}",
     "note": "Jegyzet",
     "note_1": "Ha a 2. lehetőséget választja, vagy 60-asokat kell várnia, vagy be kell írnia a megszakítást a csevegésbe, hogy ne indítsa el a parancs küldését.",
-    "note_2": "A \"/küldés\" használata nem számít parancsnak, és immeadiately használható.",
+    "note_2": "A {{cmd}} használata nem számít parancsnak, és immeadiately használható.",
     "sel_server": "Kiszolgáló kijelölése",
     "search_multiple_res": "A keresés több eredményt is megszolgáltatott. Válasszon egyet."
   },

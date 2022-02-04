@@ -137,10 +137,10 @@
     "enter_cmd": "Entrez une commande",
     "option": "Option {{nr}}",
     "option_1": "Envoyez la commande directement dans le tchat. N’utilisez que si vous faites confiance aux personnes du channel, car il apparaîtra dans le chat pendant une seconde.",
-    "option_2": "Envoyez la commande à l’aide de `/send`",
+    "option_2": "Envoyez la commande à l’aide de {{cmd}}",
     "note": "Note",
     "note_1": "Si vous choisissez l’option 2, vous devrez soit attendre 60s ou taper 'cancel' dans le tchat pour ne pas déclencher l’envoi de commande.",
-    "note_2": "L’utilisation de `/send` ne compte pas comme une commande et peut être utilisée immédiatement.",
+    "note_2": "L’utilisation de {{cmd}} ne compte pas comme une commande et peut être utilisée immédiatement.",
     "sel_server": "Sélectionner un serveur",
     "search_multiple_res": "La recherche a fourni plusieurs résultats. Choisissez-en un."
   },

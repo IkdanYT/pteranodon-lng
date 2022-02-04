@@ -137,10 +137,10 @@
     "enter_cmd": "Įvesti komandą",
     "option": "{{nr}} variantas",
     "option_1": "Siųsti komandą tiesiogiai pokalbio metu. Naudokite tik tuo atveju, jei kanale pasitikite žmonėmis, nes jis bus rodomas pokalbyje sekundę.",
-    "option_2": "Siųsti komandą naudojant \"/siųsti\"",
+    "option_2": "Siųsti komandą naudojant {{cmd}}",
     "note": "Nata",
     "note_1": "Jei pasirinksite 2 parinktį, turėsite palaukti 60-ųjų arba pokalbio metu atšaukti, kad nepradėsite siųsti komandos.",
-    "note_2": "\"/send\" naudojimas nelaikomas komanda ir gali būti naudojamas betarpiškai.",
+    "note_2": "{{cmd}} naudojimas nelaikomas komanda ir gali būti naudojamas betarpiškai.",
     "sel_server": "Pasirinkite serverį",
     "search_multiple_res": "Ieška pateikė kelis rezultatus. Pasirinkite vieną."
   },

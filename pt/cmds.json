@@ -137,10 +137,10 @@
     "enter_cmd": "Digite um comando",
     "option": "Opção {{nr}}",
     "option_1": "Envie o comando diretamente no chat. Só use se você confiar nas pessoas no canal, pois ele vai aparecer no bate-papo por um segundo.",
-    "option_2": "Envie o comando usando '/enviar'",
+    "option_2": "Envie o comando usando {{cmd}}",
     "note": "Nota",
     "note_1": "Se você escolher a opção 2, você terá que esperar 60s ou digitar cancelar no chat para não acionar o envio de comando.",
-    "note_2": "O uso de '/enviar' não conta como comando e pode ser usado de forma imensately.",
+    "note_2": "O uso de {{cmd}} não conta como comando e pode ser usado de forma imensately.",
     "sel_server": "Selecione um servidor",
     "search_multiple_res": "A pesquisa forneceu vários resultados. Escolha um."
   },

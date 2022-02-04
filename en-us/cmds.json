@@ -131,10 +131,10 @@
     "enter_cmd": "Enter a command",
     "option": "Option {{nr}}",
     "option_1": "Send the command directly in chat. Only use if you trust people in the channel, as it will show up in chat for a second.",
-    "option_2": "Send the command using `/send`",
+    "option_2": "Send the command using {{cmd}}",
     "note": "Note",
     "note_1": "If you choose option 2 you will either have to wait 60s or type cancel in the chat to not trigger sending of command.",
-    "note_2": "Using `/send` doesn't count as a command and can be used immeadiately.",
+    "note_2": "Using {{cmd}} doesn't count as a command and can be used immeadiately.",
     "sel_server": "Select a server",
     "search_multiple_res": "Search has provided multiple results. Choose one."
   },

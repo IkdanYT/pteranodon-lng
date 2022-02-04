@@ -137,10 +137,10 @@
     "enter_cmd": "Geben Sie einen Befehl ein",
     "option": "Variante {{nr}}",
     "option_1": "Senden Sie den Befehl direkt im Chat. Nur verwenden, wenn Sie Personen im Kanal vertrauen, da er für eine Sekunde im Chat angezeigt wird.",
-    "option_2": "Senden Sie den Befehl mit `/send`",
+    "option_2": "Senden Sie den Befehl mit {{cmd}}",
     "note": "Anmerkung",
     "note_1": "Wenn Sie Option 2 wählen, müssen Sie entweder 60 Sekunden warten oder im Chat Abbrechen eingeben, um das Senden des Befehls nicht auszulösen.",
-    "note_2": "Die Verwendung von `/send` zählt nicht als Befehl und kann sofort verwendet werden.",
+    "note_2": "Die Verwendung von {{cmd}} zählt nicht als Befehl und kann sofort verwendet werden.",
     "sel_server": "Wählen Sie einen Server aus",
     "search_multiple_res": "Die Suche hat mehrere Ergebnisse geliefert. Wählen Sie eine aus."
   },

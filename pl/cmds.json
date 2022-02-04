@@ -137,10 +137,10 @@
     "enter_cmd": "Wprowadź polecenie",
     "option": "Opcja {{nr}}",
     "option_1": "Wyślij polecenie bezpośrednio na czacie. Używaj tylko wtedy, gdy ufasz osobom na kanale, ponieważ pojawi się on na czacie przez sekundę.",
-    "option_2": "Wyślij polecenie za pomocą \"/send\"",
+    "option_2": "Wyślij polecenie za pomocą {{cmd}}",
     "note": "Nuta",
     "note_1": "Jeśli wybierzesz opcję 2, będziesz musiał poczekać 60 sekund lub wpisać anuluj na czacie, aby nie wyzwalać wysyłania polecenia.",
-    "note_2": "Użycie \"/send\" nie liczy się jako polecenie i może być używane bezgranicznie.",
+    "note_2": "Użycie {{cmd}} nie liczy się jako polecenie i może być używane bezgranicznie.",
     "sel_server": "Wybierz serwer",
     "search_multiple_res": "Wyszukiwanie przyniosło wiele wyników. Wybierz jedną z nich."
   },
