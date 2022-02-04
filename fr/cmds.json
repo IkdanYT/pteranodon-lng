@@ -8,11 +8,11 @@
   "pterodactyl": "Pterodactyle",
   "common": {
     "search_server_*": "Rechercher le serveur par nom, uuid, external_id",
-    "valid": "Valable",
+    "valid": "Valide",
     "invalid": "Non valide",
     "error": "Erreur",
     "refresh": "Rafraîchir",
-    "start": "Commencer",
+    "start": "Démarrer",
     "restart": "Redémarrer",
     "stop": "Arrêter",
     "kill": "Tuer",
@@ -28,16 +28,16 @@
     "no_msg": "Aucun message reçu",
     "no_res": "Aucun résultat trouvé",
     "try_again": "Réessayez",
-    "inv_client_token": "Jeton client non valide",
-    "inv_admin_token": "Jeton d’administrateur non valide",
-    "not_set_client_token": "Ne pas définir le jeton client",
-    "not_set_admin_token": "Ne pas définir le jeton d’administration",
-    "create_new_token": "Créer un nouveau jeton dans",
+    "inv_client_token": "Token client non valide",
+    "inv_admin_token": "Token d’administrateur non valide",
+    "not_set_client_token": "Ne pas définir le token client",
+    "not_set_admin_token": "Ne pas définir le token d’administration",
+    "create_new_token": "Créer un nouveau token dans",
     "api_page": "Page API",
-    "set_new_token": "Définissez un nouveau jeton avec '/userconf'",
+    "set_new_token": "Définissez un nouveau token avec '/userconf'",
     "server_down": "Le serveur est en panne",
     "error_occurred": "Une erreur s’est produite",
-    "invalid_api_token": "Jeton d’API non valide"
+    "invalid_api_token": "Token d'API non valide"
   },
   "not_found": {
     "main": "Introuvable",
@@ -54,41 +54,41 @@
     "page": "Page {{page}} / {{pages}}",
     "refresh": "Rafraîchir",
     "back": "Précédent",
-    "next": "Prochain"
+    "next": "Suivant"
   },
   "help": {
-    "main": "Donne toutes les commandes disponibles et leurs descriptions",
+    "main": "Aide sur l'ensemble des commandes",
     "category": "{{category}} Commandes"
   },
   "set": {
     "main": "Paramètres du serveur",
     "settings": "Paramètres du serveur",
-    "admin_roles": "Rôles d’administrateur",
+    "admin_roles": "Rôles administrateur",
     "lng": "Langue",
     "set_lng": "Définir la langue",
     "changed_lng": "Langue changée en {{lng}}",
     "admin_role": {
       "main": "Ajouter ou supprimer des rôles d’administrateur",
-      "add": "Ajouter un rôle d’administrateur",
-      "rem": "Supprimer un rôle d’administrateur",
-      "add_role": "Le rôle à ajouter",
-      "rem_role": "Le rôle à supprimer",
-      "alrd_set": "Rôle d’administrateur {{role}} déjà défini",
-      "not_set": "Rôle d’administrateur {{role}} non défini pour être utilisé",
-      "added_role": "Ajout d’un rôle d’administrateur : {{role}}",
-      "removed_role": "Rôle d’administrateur supprimé : {{role}}",
-      "all_roles": "Tous les rôles d’administrateur : {{roles}}"
+      "add": "Ajouter un rôle administrateur",
+      "rem": "Supprimer un rôle administrateur",
+      "add_role": "Rôle à ajouter",
+      "rem_role": "Rôle à supprimer",
+      "alrd_set": "Rôle administrateur {{role}} déjà défini",
+      "not_set": "Rôle administrateur {{role}} non défini pour être utilisé",
+      "added_role": "Ajout d’un rôle administrateur : {{role}}",
+      "removed_role": "Rôle administrateur supprimé : {{role}}",
+      "all_roles": "Tous les rôles administrateur : {{roles}}"
     },
-    "tokens": "Jetons",
+    "tokens": "Token",
     "token": {
-      "main": "Définir les jetons requis",
-      "client": "Le jeton client",
-      "admin": "Le jeton d’administration",
+      "main": "Définir les tokens requis",
+      "client": "Le token client",
+      "admin": "Le token d’administration",
       "show": "Afficher les paramètres",
-      "client_token": "Jeton client : {{valid}}",
-      "admin_token": "Jeton d’administration: {{valid}}",
-      "success": "Validé et défini avec succès des jetons",
-      "invalid": "Jeton(s) fourni(s) non valide(s)"
+      "client_token": "Token client : {{valid}}",
+      "admin_token": "Token d’administration: {{valid}}",
+      "success": "Token(s) définis avec succès",
+      "invalid": "Token(s) fourni(s) non valide(s)"
     },
     "embedcolor": {
       "main": "Définir la couleur d’intégration",
@@ -97,25 +97,25 @@
     }
   },
   "reboot": {
-    "main": "Redémarrez le bot",
+    "main": "Redémarrer le bot",
     "rebooting": "Redémarrage du bot"
   },
   "rename": {
-    "main": "Renommez un serveur.",
+    "main": "Renommer un serveur",
     "name": "Le nouveau nom du serveur"
   },
   "userconf": {
     "main": "Paramètres utilisateur",
-    "client_token": "Jeton d’API client pterodactyle",
-    "admin": "Les administrateurs n’ont pas besoin d’utiliser cette commande. Le jeton d’API du serveur est utilisé à la place.",
+    "client_token": "Token d'API client pterodactyle",
+    "admin": "Les administrateurs n’ont pas besoin d’utiliser cette commande. Le token d'API du serveur est utilisé à la place.",
     "settings": "Paramètres utilisateur",
-    "token": "Jeton",
+    "token": "Token",
     "not_set": "Non défini",
-    "token_set": "Les jetons ont été validés et mis en place avec succès.",
-    "token_invalid": "Le jeton n’est pas valide"
+    "token_set": "Les token ont été validés et mis en place avec succès.",
+    "token_invalid": "Le token n’est pas valide"
   },
   "send": {
-    "main": "Envoyer une commande à votre serveur",
+    "main": "Envoyer une commande sur votre serveur",
     "command": "Une commande que vous souhaitez envoyer au serveur"
   },
   "ping": {
@@ -123,7 +123,7 @@
     "discord_latency": "Latence de l’API Discord"
   },
   "mylevel": {
-    "main": "Donne votre niveau d’autorisation",
+    "main": "Votre niveau d’autorisation",
     "perm_level": "Votre niveau d’autorisation est : {{level}} - {{levelName}}"
   },
   "validate": "Valider",
@@ -131,16 +131,16 @@
     "main": "Afficher des informations sur vos serveurs et les contrôler",
     "create_backup": "Créer une sauvegarde",
     "send_command": "Envoyer une commande",
-    "console": "Console",
+    "console": "Afficher la console",
     "console_no_update": "Console (pas de rafraichissement)",
     "backup_created": "Sauvegarde créée",
     "enter_cmd": "Entrez une commande",
     "option": "Option {{nr}}",
     "option_1": "Envoyez la commande directement dans le tchat. N’utilisez que si vous faites confiance aux personnes du channel, car il apparaîtra dans le chat pendant une seconde.",
-    "option_2": "Envoyez la commande à l’aide de {{cmd}}",
+    "option_2": "Envoyez la commande à l’aide de `/send`",
     "note": "Note",
     "note_1": "Si vous choisissez l’option 2, vous devrez soit attendre 60s ou taper 'cancel' dans le tchat pour ne pas déclencher l’envoi de commande.",
-    "note_2": "L’utilisation de {{cmd}} ne compte pas comme une commande et peut être utilisée immédiatement.",
+    "note_2": "L’utilisation de `/send` ne compte pas comme une commande et peut être utilisée immédiatement.",
     "sel_server": "Sélectionner un serveur",
     "search_multiple_res": "La recherche a fourni plusieurs résultats. Choisissez-en un."
   },
@@ -149,7 +149,7 @@
     "server": "Gérer le modèle de serveur",
     "create": "Créer un modèle",
     "delete": "Supprimer un modèle",
-    "show": "Afficher un modèle",
+    "show": "Afficher les modèles",
     "name": "Nom du modèle",
     "cpu": "Définir la limite du CPU (valeur par défaut illimitée)",
     "memory": "Définir la limite de MÉMOIRE (valeur par défaut illimitée)",
@@ -171,7 +171,7 @@
     "main": "Créer un nouvel utilisateur ou serveur",
     "user": "Créer un utilisateur",
     "email": "Adresse e-mail de l’utilisateur",
-    "username": "Nom d’utilisateur",
+    "username": "Pseudo de l'utilisateur",
     "first_name": "Prénom de l’utilisateur",
     "last_name": "Nom de l’utilisateur",
     "admin": "L'utilisateur est-il un administrateur ? ('false' [non] par défaut, utilisez 'true' pour oui)",
@@ -180,28 +180,28 @@
     "template": "Modèle du serveur",
     "name": "Nom du serveur",
     "node": "Nom du nœud (node) sur lequel vous souhaitez créer le serveur",
-    "owner": "Nom d’utilisateur du propriétaire",
+    "owner": "Pseudo de l'utilisateur du propriétaire",
     "sel_node": "Sélectionner un nœud (node)",
     "sel_owner": "Sélectionner un propriétaire pour le serveur",
     "no_free_alloc": "Aucune allocation libre trouvée"
   },
   "console": "Console du serveur",
   "ausers": {
-    "main": "Afficher des informations sur tous les utilisateurs et les contrôler",
+    "main": "Contrôle et informations des utilisateurs",
     "username": "Rechercher un utilisateur par nom d’utilisateur",
     "email": "Rechercher un utilisateur par e-mail"
   },
   "aservers": {
-    "main": "Afficher des informations sur tous les serveurs et les contrôler",
+    "main": "Contrôle et informations des serveurs",
     "name": "Rechercher le serveur par nom"
   },
   "anodes": {
-    "main": "Afficher des informations sur tous les nœuds",
+    "main": "Informations sur les nœuds (nodes)",
     "name": "Rechercher un nœud (node) par nom",
     "uuid": "Rechercher un nœud (node) par uuid"
   },
   "aeggs": {
-    "main": "Afficher des informations sur tous les œufs",
+    "main": "Informations sur les œufs (eggs)",
     "sel_nest": "Sélectionner un nid (nest)"
   }
 }
