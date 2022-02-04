@@ -51,7 +51,7 @@
     "allocation": "Nem található felosztás"
   },
   "pagination": {
-    "page": "<span>Oldal 0</span> / {{pages}}",
+    "page": "Oldal {{page}} / {{pages}}",
     "refresh": "Felfrissít",
     "back": "Hát",
     "next": "Következő"
