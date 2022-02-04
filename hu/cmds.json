@@ -1,0 +1,207 @@
+{
+  "administrator": "Ügyintéző",
+  "user": "Felhasználó",
+  "server_owner": "Kiszolgáló tulajdonosa",
+  "bot_creator": "Bot Creator",
+  "miscelaneous": "Miscelaneous",
+  "pterodactyl_admin": "Pterodactyl Admin",
+  "pterodactyl": "Őskori szárnyas gyík",
+  "common": {
+    "search_server_*": "Szerver keresése név, uuid, external_id",
+    "valid": "Érvényes",
+    "invalid": "Érvénytelen",
+    "error": "Hiba",
+    "refresh": "Felfrissít",
+    "start": "Elkezd",
+    "restart": "Újraindítás",
+    "stop": "Állj",
+    "kill": "Megöl",
+    "cmd_sent": "Elküldött parancs"
+  },
+  "errors": {
+    "perm_error": "Nincs engedélye a parancs használatára.",
+    "perm_error_has": "Az Ön engedélyszintje {{level}} ({{levelName}})",
+    "perm_error_req": "Ehhez a parancshoz {{level}} . szintre ({{levelName}}) van szükség.",
+    "timeout": "Időkorlát",
+    "server_susp": "A kiszolgáló felfüggesztve",
+    "server_off": "Kiszolgáló kapcsolat nélküli",
+    "no_msg": "Nem érkezett üzenet",
+    "no_res": "Nem található eredmény",
+    "try_again": "Próbáld újra",
+    "inv_client_token": "Érvénytelen ügyfél jogkivonat",
+    "inv_admin_token": "Érvénytelen rendszergazdai jogkivonat",
+    "not_set_client_token": "Nincs beállítva ügyfél jogkivonat",
+    "not_set_admin_token": "Nincs beállítva rendszergazdai jogkivonat",
+    "create_new_token": "Új jogkivonat létrehozása a",
+    "api_page": "Api-lap elérése",
+    "set_new_token": "Új jogkivonat beállítása a\"/userconf' beállítással",
+    "server_down": "A kiszolgáló leállt",
+    "error_occurred": "Hiba történt",
+    "invalid_api_token": "Érvénytelen API-jogkivonat"
+  },
+  "not_found": {
+    "main": "Nem található",
+    "nest": "Nem található fészek",
+    "egg": "Tojásokat nem találtak",
+    "server": "Nem található kiszolgáló",
+    "user": "Nem található felhasználó",
+    "template": "A sablon nem található",
+    "node": "A csomópont nem található",
+    "owner": "A tulajdonos nem található",
+    "allocation": "Nem található felosztás"
+  },
+  "pagination": {
+    "page": "<span>Oldal 0</span> / {{pages}}",
+    "refresh": "Felfrissít",
+    "back": "Hát",
+    "next": "Következő"
+  },
+  "help": {
+    "main": "Megadja az összes rendelkezésre álló parancsot és azok leírását",
+    "category": "{{category}} Parancsok"
+  },
+  "set": {
+    "main": "Kiszolgáló beállításai",
+    "settings": "Kiszolgáló beállításai",
+    "admin_roles": "Rendszergazdai szerepkörök",
+    "lng": "Nyelv",
+    "set_lng": "Nyelv beállítása",
+    "changed_lng": "A nyelv <span>0-ra</span> változott",
+    "admin_role": {
+      "main": "Rendszergazdai szerepkörök hozzáadása vagy eltávolítása",
+      "add": "Rendszergazdai szerepkör hozzáadása",
+      "rem": "Rendszergazdai szerepkör eltávolítása",
+      "add_role": "A hozzáadnivaló szerepkör",
+      "rem_role": "Az eltávolítandó szerepkör",
+      "alrd_set": "A {{role}} . rendszergazdai szerepkör már be van állítva",
+      "not_set": "A {{role}} . rendszergazdai szerepkör nincs beállítva",
+      "added_role": "Hozzáadott rendszergazdai szerepkör: {{role}}",
+      "removed_role": "Eltávolított rendszergazdai szerepkör: {{role}}",
+      "all_roles": "Minden rendszergazdai szerepkör: {{roles}}"
+    },
+    "tokens": "Tokenek",
+    "token": {
+      "main": "A szükséges jogkivonatok beállítása",
+      "client": "Az ügyfél jogkivonata",
+      "admin": "A rendszergazdai jogkivonat",
+      "show": "Beállítások megjelenítése",
+      "client_token": "Ügyfél token: {{valid}}",
+      "admin_token": "Rendszergazdai jogkivonat: {{valid}}",
+      "success": "Sikeresen érvényesített és jogkivonatok beállítása",
+      "invalid": "Érvénytelen jogkivonat(ok)"
+    },
+    "embedcolor": {
+      "main": "Beágyazási szín beállítása",
+      "color": "Színek beágyazása",
+      "set_color": "Beágyazási szín beállítása: {{color}}"
+    }
+  },
+  "reboot": {
+    "main": "Indítsa újra a botot",
+    "rebooting": "A robot újraindítása"
+  },
+  "rename": {
+    "main": "Nevezzen át egy kiszolgálót.",
+    "name": "A kiszolgáló új neve"
+  },
+  "userconf": {
+    "main": "Felhasználói beállítások",
+    "client_token": "Pterodactyl ügyfél API-jogkivonat",
+    "admin": "A rendszergazdáknak nem kell használniuk ezt a parancsot. A kiszolgáló API-jogkivonata ehelyett használatos.",
+    "settings": "Felhasználói beállítások",
+    "token": "Token",
+    "not_set": "Nincs beállítva",
+    "token_set": "A jogkivonat érvényes és szukessly be van állítva",
+    "token_invalid": "A jogkivonat érvénytelen"
+  },
+  "send": {
+    "main": "Parancs küldése a kiszolgálónak",
+    "command": "A kiszolgálóra küldeni kívánt parancs"
+  },
+  "ping": {
+    "main": "Bot késése",
+    "discord_latency": "Disszonáns API-késés"
+  },
+  "mylevel": {
+    "main": "Megadja az engedély szintjét",
+    "perm_level": "Az Ön engedélyszintje: {{level}} - {{levelName}}"
+  },
+  "validate": "Érvényesít",
+  "servers": {
+    "main": "A kiszolgálókra vonatkozó információk megjelenítése és vezérlése",
+    "create_backup": "Biztonsági mentés létrehozása",
+    "send_command": "Parancs küldése",
+    "console": "Vigasztal",
+    "console_no_update": "Konzol (nem frissül)",
+    "backup_created": "Biztonsági másolat létrehozva",
+    "enter_cmd": "Parancs megadása",
+    "option": "{{nr}}. lehetőség",
+    "option_1": "Küldje el a parancsot közvetlenül a csevegésben. Csak akkor használja, ha megbízik az emberekben a csatornában, mivel egy másodpercig megjelenik a csevegésben.",
+    "option_2": "Küldje el a parancsot a következő használatával: '/send'",
+    "note": "Jegyzet",
+    "note_1": "Ha a 2. lehetőséget választja, vagy 60-asokat kell várnia, vagy be kell írnia a megszakítást a csevegésbe, hogy ne indítsa el a parancs küldését.",
+    "note_2": "A \"/küldés\" használata nem számít parancsnak, és immeadiately használható.",
+    "sel_server": "Kiszolgáló kijelölése",
+    "search_multiple_res": "A keresés több eredményt is megszolgáltatott. Válasszon egyet."
+  },
+  "template": {
+    "main": "Sablonok kezelése",
+    "server": "Kiszolgálósablon kezelése",
+    "create": "Sablon létrehozása",
+    "delete": "Sablon törlése",
+    "show": "Sablonok megjelenítése",
+    "name": "A sablon neve",
+    "cpu": "CPU-korlát beállítása (Korlátlan alapértelmezett)",
+    "memory": "MEMÓRIAkorlát beállítása (Korlátlan alapértelmezett)",
+    "disk": "LEMEZkorlát beállítása (Korlátlan alapértelmezett)",
+    "swap": "SWAP limit beállítása (Korlátlan alapértelmezett)",
+    "backup": "Biztonsági mentési korlát beállítása (alapértelmezés szerint 0)",
+    "allocation": "Felosztási korlát beállítása (alapértelmezés szerint 0)",
+    "database": "Adatbázis-korlát beállítása (alapértelmezés szerint 0)",
+    "sel_nest": "A sablon fészkének kiválasztása",
+    "sel_egg": "Válasszon egy tojást ehhez a sablonhoz",
+    "sel_docker": "Válasszon egy docker-lemezképet ehhez a sablonhoz",
+    "type_value": "Írja be az értékét a csevegésbe",
+    "for_default": "Alapértelmezett használathoz {{default}} és üres használathoz {{empty}}",
+    "rules": "Szabályok",
+    "default_val": "Alapértelmezett érték",
+    "success_del": "Sikeresen törölt sablon"
+  },
+  "create": {
+    "main": "Új felhasználó vagy kiszolgáló létrehozása",
+    "user": "Felhasználó létrehozása",
+    "email": "Felhasználói e-mail cím",
+    "username": "Felhasználói felhasználónév",
+    "first_name": "Felhasználó keresztneve",
+    "last_name": "Felhasználó vezetékneve",
+    "admin": "A felhasználó rendszergazdája (alapértelmezett hamis)",
+    "password": "Felhasználói jelszó. Ha nincs beállítva, a felhasználó e-mailt küld",
+    "server": "Kiszolgáló létrehozása",
+    "template": "A kiszolgáló sablonja",
+    "name": "A kiszolgáló neve",
+    "node": "Annak a csomópontnak a neve, amelyen a kiszolgálót létre szeretné hozni",
+    "owner": "A tulajdonos felhasználóneve",
+    "sel_node": "Csomópont kijelölése",
+    "sel_owner": "A kiszolgáló tulajdonosának kiválasztása",
+    "no_free_alloc": "Nem található ingyenes kiosztás"
+  },
+  "console": "Kiszolgálókonzol",
+  "ausers": {
+    "main": "Az összes felhasználóval kapcsolatos információk megjelenítése és vezérlése",
+    "username": "Felhasználó keresése felhasználónév szerint",
+    "email": "Felhasználó keresése e-mailben"
+  },
+  "aservers": {
+    "main": "Az összes kiszolgálóval kapcsolatos információk megjelenítése és vezérlése",
+    "name": "Kiszolgáló keresése név szerint"
+  },
+  "anodes": {
+    "main": "Az összes csomóponttal kapcsolatos információk megjelenítése",
+    "name": "Csomópont keresése név szerint",
+    "uuid": "Csomópont keresése uuid szerint"
+  },
+  "aeggs": {
+    "main": "Információk megjelenítése az összes tojásról",
+    "sel_nest": "Válasszon egy fészket"
+  }
+}
