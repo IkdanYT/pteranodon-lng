@@ -7,7 +7,7 @@
   "pterodactyl_admin": "Pterodactyl面板管理員",
   "pterodactyl": "Pterodactyl",
   "common": {
-    "search_server_*": "按名稱、UUID、External_ID搜尋伺服器",
+    "search_server_*": "按名稱、UUID、額外ID搜尋伺服器",
     "valid": "有效",
     "invalid": "無效",
     "error": "錯誤",
