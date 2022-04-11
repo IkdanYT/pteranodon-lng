@@ -10,6 +10,7 @@
   "mem": "emlékezet",
   "location": "hely",
   "disk": "lemez",
+  "disk_space": "lemez terület",
   "stats": "statisztika",
   "databases": "Adatbázisok",
   "allocations": "Felosztások",
@@ -32,5 +33,8 @@
   "no_backups": "ez a kiszolgáló nem rendelkezik biztonsági mentéssel",
   "no_servers": "ennek a felhasználónak nincsenek szerverei",
   "vars": "Változók",
-  "email": "E-mail"
+  "email": "E-mail",
+  "locked": "zárt",
+  "ignored_files": "figyelmen kívül hagyott fájlok",
+  "created": "létre"
 }

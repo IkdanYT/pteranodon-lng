@@ -48,7 +48,8 @@
     "template": "找不到指定範本",
     "node": "找不到指定節點",
     "owner": "找不到指定擁有者",
-    "allocation": "找不到指定端口分配"
+    "allocation": "找不到指定端口分配",
+    "backup": "找不到備份"
   },
   "pagination": {
     "page": "第 {{page}} / {{pages}} 頁",
@@ -129,7 +130,6 @@
   "validate": "驗證",
   "servers": {
     "main": "顯示有關伺服器的資訊並對其進行控制",
-    "create_backup": "創建備份",
     "send_command": "發送指令",
     "console": "控制台",
     "console_no_update": "控制台（未更新）",
@@ -206,5 +206,14 @@
   "aeggs": {
     "main": "顯示有關所有 Egg 的資訊",
     "sel_nest": "選擇 Nest"
+  },
+  "backups": {
+    "main": "顯示有關服務器備份的信息並控制它們",
+    "create": "創建備份",
+    "download": "下載備份",
+    "delete": "刪除備份",
+    "restore": "恢復備份",
+    "lock": "鎖定備份",
+    "unlock": "解鎖備份"
   }
 }

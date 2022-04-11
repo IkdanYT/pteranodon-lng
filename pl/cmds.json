@@ -48,7 +48,8 @@
     "template": "Nie znaleziono szablonu",
     "node": "Nie znaleziono węzła",
     "owner": "Nie znaleziono właściciela",
-    "allocation": "Nie znaleziono alokacji"
+    "allocation": "Nie znaleziono alokacji",
+    "backup": "Nie znaleziono kopii zapasowych"
   },
   "pagination": {
     "page": "Strona {{page}} / {{pages}}",
@@ -129,7 +130,6 @@
   "validate": "Walidować",
   "servers": {
     "main": "Wyświetlanie informacji o serwerach i kontrolowanie ich",
-    "create_backup": "Utwórz kopię zapasową",
     "send_command": "Polecenie Wyślij",
     "console": "Konsola",
     "console_no_update": "Konsola (nieaktualizacja)",
@@ -206,5 +206,14 @@
   "aeggs": {
     "main": "Pokaż informacje o wszystkich jajach",
     "sel_nest": "Wybierz gniazdo"
+  },
+  "backups": {
+    "main": "Wyświetlaj informacje o kopiach zapasowych serwera i kontroluj je",
+    "create": "Utwórz kopię zapasową",
+    "download": "Pobierz kopię zapasową",
+    "delete": "Usuń kopię zapasową",
+    "restore": "Przywracania kopii zapasowej",
+    "lock": "Zablokuj kopię zapasową",
+    "unlock": "Odblokuj kopię zapasową"
   }
 }

@@ -48,7 +48,8 @@
     "template": "Vorlage nicht gefunden",
     "node": "Knoten nicht gefunden",
     "owner": "Besitzer nicht gefunden",
-    "allocation": "Keine Zuordnungen gefunden"
+    "allocation": "Keine Zuordnungen gefunden",
+    "backup": "Keine Sicherungen gefunden"
   },
   "pagination": {
     "page": "Seite {{page}} / {{pages}}",
@@ -129,7 +130,6 @@
   "validate": "Validieren",
   "servers": {
     "main": "Zeigen Sie Informationen über Ihre Server an und kontrollieren Sie sie",
-    "create_backup": "Backup erstellen",
     "send_command": "Befehl senden",
     "console": "Konsole",
     "console_no_update": "Konsole (wird nicht aktualisiert)",
@@ -206,5 +206,14 @@
   "aeggs": {
     "main": "Informationen über alle Eier anzeigen",
     "sel_nest": "Auswählen einer Verschachtelung"
+  },
+  "backups": {
+    "main": "Zeigen Sie Informationen über die Backups Ihres Servers an und kontrollieren Sie sie",
+    "create": "Ein Backup erstellen",
+    "download": "Backup herunterladen",
+    "delete": "Sicherung löschen",
+    "restore": "Backup wiederherstellen",
+    "lock": "Sicherung sperren",
+    "unlock": "Sicherung entsperren"
   }
 }

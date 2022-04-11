@@ -48,7 +48,8 @@
     "template": "Modèle introuvable",
     "node": "Nœud (node) introuvable",
     "owner": "Propriétaire introuvable",
-    "allocation": "Aucune allocation trouvée"
+    "allocation": "Aucune allocation trouvée",
+    "backup": "Aucune sauvegarde trouvée"
   },
   "pagination": {
     "page": "Page {{page}} / {{pages}}",
@@ -129,7 +130,6 @@
   "validate": "Valider",
   "servers": {
     "main": "Afficher des informations sur vos serveurs et les contrôler",
-    "create_backup": "Créer une sauvegarde",
     "send_command": "Envoyer une commande",
     "console": "Afficher la console",
     "console_no_update": "Console (pas de rafraichissement)",
@@ -206,5 +206,14 @@
   "aeggs": {
     "main": "Informations sur les œufs (eggs)",
     "sel_nest": "Sélectionner un nid (nest)"
+  },
+  "backups": {
+    "main": "Affichez des informations sur les sauvegardes de votre serveur et contrôlez-les",
+    "create": "Créer une sauvegarde",
+    "download": "Télécharger la sauvegarde",
+    "delete": "Supprimer la sauvegarde",
+    "restore": "Restaurer la sauvegarde",
+    "lock": "Verrouiller la sauvegarde",
+    "unlock": "Déverrouiller la sauvegarde"
   }
 }

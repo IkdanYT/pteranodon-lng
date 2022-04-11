@@ -48,7 +48,8 @@
     "template": "A sablon nem található",
     "node": "A csomópont nem található",
     "owner": "A tulajdonos nem található",
-    "allocation": "Nem található felosztás"
+    "allocation": "Nem található felosztás",
+    "backup": "Nem találhatók biztonsági mentések"
   },
   "pagination": {
     "page": "Oldal {{page}} / {{pages}}",
@@ -129,7 +130,6 @@
   "validate": "Érvényesít",
   "servers": {
     "main": "A kiszolgálókra vonatkozó információk megjelenítése és vezérlése",
-    "create_backup": "Biztonsági mentés létrehozása",
     "send_command": "Parancs küldése",
     "console": "Vigasztal",
     "console_no_update": "Konzol (nem frissül)",
@@ -206,5 +206,14 @@
   "aeggs": {
     "main": "Információk megjelenítése az összes tojásról",
     "sel_nest": "Válasszon egy fészket"
+  },
+  "backups": {
+    "main": "Információkat jeleníthet meg a szerver biztonsági másolatairól, és irányíthatja azokat",
+    "create": "Biztonsági másolat létrehozása",
+    "download": "Töltse le a biztonsági másolatot",
+    "delete": "Biztonsági másolat törlése",
+    "restore": "Biztonsági mentés visszaállítása",
+    "lock": "Biztonsági mentés zárolása",
+    "unlock": "Oldja fel a biztonsági mentést"
   }
 }

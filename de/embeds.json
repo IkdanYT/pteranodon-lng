@@ -10,6 +10,7 @@
   "mem": "Gedächtnis",
   "location": "Ort",
   "disk": "Scheibe",
+  "disk_space": "Festplattenplatz",
   "stats": "Statistiken",
   "databases": "Datenbanken",
   "allocations": "allokationen",
@@ -32,5 +33,8 @@
   "no_backups": "Dieser Server verfügt über keine Sicherungen",
   "no_servers": "Dieser Benutzer hat keine Server",
   "vars": "variablen",
-  "email": "E-Mail"
+  "email": "E-Mail",
+  "locked": "gesperrt",
+  "ignored_files": "ignorierte Dateien",
+  "created": "erstellt"
 }

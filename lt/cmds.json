@@ -48,7 +48,8 @@
     "template": "Šablonas nerastas",
     "node": "Mazgas nerastas",
     "owner": "Savininkas nerastas",
-    "allocation": "Asignavimų nerasta"
+    "allocation": "Asignavimų nerasta",
+    "backup": "Atsarginių kopijų nerasta"
   },
   "pagination": {
     "page": "Puslapis {{page}} / {{pages}}",
@@ -129,7 +130,6 @@
   "validate": "Patvirtinti",
   "servers": {
     "main": "Rodyti informaciją apie savo serverius ir juos valdyti",
-    "create_backup": "Kurti atsarginę kopiją",
     "send_command": "Komanda Siųsti",
     "console": "Paguosti",
     "console_no_update": "Konsolė (neatnaujinta)",
@@ -206,5 +206,14 @@
   "aeggs": {
     "main": "Rodyti informaciją apie visus kiaušinius",
     "sel_nest": "Pasirinkite lizdą"
+  },
+  "backups": {
+    "main": "Rodyti informaciją apie savo serverio atsargines kopijas ir jas valdyti",
+    "create": "Sukurti atsarginę kopiją",
+    "download": "Atsisiųskite atsarginę kopiją",
+    "delete": "Ištrinti atsarginę kopiją",
+    "restore": "Atstatyti atsarginę kopiją",
+    "lock": "Užrakinti atsarginę kopiją",
+    "unlock": "Atrakinkite atsarginę kopiją"
   }
 }

@@ -10,6 +10,7 @@
   "mem": "atmintis",
   "location": "vieta",
   "disk": "diskas",
+  "disk_space": "disko talpa",
   "stats": "Statistika",
   "databases": "Duomenų bazių",
   "allocations": "Paskirstymas",
@@ -32,5 +33,8 @@
   "no_backups": "šis serveris neturi atsarginių kopijų",
   "no_servers": "šis vartotojas neturi serverių",
   "vars": "Kintamųjų",
-  "email": "El paštas"
+  "email": "El paštas",
+  "locked": "užrakinta",
+  "ignored_files": "ignoruojami failai",
+  "created": "sukurtas"
 }

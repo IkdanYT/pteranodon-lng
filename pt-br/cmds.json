@@ -48,7 +48,8 @@
     "template": "Modelo não encontrado",
     "node": "Nó não encontrado",
     "owner": "Proprietário não encontrado",
-    "allocation": "Nenhuma alocação encontrada"
+    "allocation": "Nenhuma alocação encontrada",
+    "backup": "Nenhum backup encontrado"
   },
   "pagination": {
     "page": "Página {{page}} / {{pages}}",
@@ -129,7 +130,6 @@
   "validate": "Validar",
   "servers": {
     "main": "Mostre informações sobre seus servidores e controle-os",
-    "create_backup": "Criar backup",
     "send_command": "Enviar comando",
     "console": "Consolar",
     "console_no_update": "Console (Não Atualização)",
@@ -206,5 +206,14 @@
   "aeggs": {
     "main": "Mostre informações sobre todos os ovos",
     "sel_nest": "Selecione um ninho"
+  },
+  "backups": {
+    "main": "Mostre informações sobre os backups do seu servidor e controle-os",
+    "create": "Criar backup",
+    "download": "Baixar Backup",
+    "delete": "Excluir backup",
+    "restore": "Restaurar backup",
+    "lock": "Bloquear Backup",
+    "unlock": "Backup de desbloqueio"
   }
 }
