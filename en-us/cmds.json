@@ -23,7 +23,7 @@
     "perm_error_has": "Your permission level is {{level}} ({{levelName}})",
     "perm_error_req": "This command requires level {{level}} ({{levelName}})",
     "timeout": "Timeout",
-    "server_susp": "Server suspended",
+    "server_susp": "Server is suspended",
     "server_off": "Server offline",
     "no_msg": "No message received",
     "no_res": "No results found",
@@ -48,7 +48,8 @@
     "template": "Template not found",
     "node": "Node not found",
     "owner": "Owner not found",
-    "allocation": "No allocations found"
+    "allocation": "No allocations found",
+    "backup": "No backups found"
   },
   "pagination": {
     "page": "Page {{page}} / {{pages}}",
@@ -123,7 +124,6 @@
   "validate": "Validate",
   "servers": {
     "main": "Show information about your servers and control them",
-    "create_backup": "Create Backup",
     "send_command": "Send Command",
     "console": "Console",
     "console_no_update": "Console (Not Updating)",
@@ -200,5 +200,14 @@
   "aeggs": {
     "main": "Show information about all the eggs",
     "sel_nest": "Select a nest"
+  },
+  "backups": {
+    "main": "Show information about your server's backups and control them",
+    "create": "Create Backup",
+    "download": "Download Backup",
+    "delete": "Delete Backup",
+    "restore": "Restore Backup",
+    "lock": "Lock Backup",
+    "unlock": "Unlock Backup"
   }
 }
