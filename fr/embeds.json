@@ -37,6 +37,6 @@
   "locked": "fermé à clé",
   "ignored_files": "fichiers ignorés",
   "created": "créé",
-  "cpu_cores": "cœurs de processeur",
+  "cpu_cores": "CPU Cores",
   "active_servers": "serveurs actifs"
 }
