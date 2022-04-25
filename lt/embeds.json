@@ -36,5 +36,7 @@
   "email": "El paštas",
   "locked": "užrakinta",
   "ignored_files": "ignoruojami failai",
-  "created": "sukurtas"
+  "created": "sukurtas",
+  "cpu_cores": "procesoriaus branduoliai",
+  "active_servers": "aktyvūs serveriai"
 }

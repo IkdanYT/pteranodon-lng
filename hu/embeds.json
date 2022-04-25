@@ -36,5 +36,7 @@
   "email": "E-mail",
   "locked": "zárt",
   "ignored_files": "figyelmen kívül hagyott fájlok",
-  "created": "létre"
+  "created": "létre",
+  "cpu_cores": "cpu magok",
+  "active_servers": "aktív szerverek"
 }
