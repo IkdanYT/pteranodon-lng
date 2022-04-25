@@ -36,5 +36,7 @@
   "email": "email",
   "locked": "locked",
   "ignored_files": "ignored files",
-  "created": "created"
+  "created": "created",
+  "cpu_cores": "cpu cores",
+  "active_servers": "active servers"
 }
