@@ -20,7 +20,7 @@
   "unlimited": "illimité",
   "server_info": "informations sur le serveur",
   "status": "statut",
-  "cpu_usage": "utilisation du processeur",
+  "cpu_usage": "Utilisation CPU",
   "mem_usage": "utilisation de la mémoire",
   "not_available": "indisponible",
   "suspended": "suspendu",
@@ -37,6 +37,6 @@
   "locked": "fermé à clé",
   "ignored_files": "fichiers ignorés",
   "created": "créé",
-  "cpu_cores": "CPU Cores",
+  "cpu_cores": "Coeurs CPU",
   "active_servers": "serveurs actifs"
 }
