@@ -152,6 +152,7 @@
     "backup": "Set backup limit (0 by default)",
     "allocation": "Set allocation limit (0 by default)",
     "database": "Set database limit (0 by default)",
+    "autostart": "Start server after setup (false by default)",
     "sel_nest": "Select a nest for this template",
     "sel_egg": "Select an egg for this template",
     "sel_docker": "Select a docker image for this template",
