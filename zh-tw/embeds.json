@@ -37,6 +37,6 @@
   "locked": "鎖定",
   "ignored_files": "被忽略的文件",
   "created": "創建",
-  "cpu_cores": "cpu核心",
-  "active_servers": "活動服務器"
+  "cpu_cores": "CPU 核心數",
+  "active_servers": "活耀伺服器"
 }
