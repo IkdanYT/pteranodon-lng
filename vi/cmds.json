@@ -1,0 +1,219 @@
+{
+  "administrator": "Người quản lý",
+  "user": "Người dùng",
+  "server_owner": "Chủ sở hữu máy chủ",
+  "bot_creator": "Người tạo bot",
+  "miscelaneous": "Không chính xác",
+  "pterodactyl_admin": "Quản trị viên Pterodactyl",
+  "pterodactyl": "Pterodactyl",
+  "common": {
+    "search_server_*": "Tìm kiếm máy chủ theo tên, uuid, external_id",
+    "valid": "Có giá trị",
+    "invalid": "Không hợp lệ",
+    "error": "Lỗi",
+    "refresh": "Làm cho khỏe lại",
+    "start": "Khởi đầu",
+    "restart": "Khởi động lại",
+    "stop": "Ngừng lại",
+    "kill": "Giết",
+    "cmd_sent": "Lệnh đã được gửi"
+  },
+  "errors": {
+    "perm_error": "Bạn không có quyền sử dụng lệnh này.",
+    "perm_error_has": "Cấp quyền của bạn là {{level}} ({{levelName}})",
+    "perm_error_req": "Lệnh này yêu cầu cấp độ {{level}} ({{levelName}})",
+    "timeout": "Hết giờ",
+    "server_susp": "Máy chủ bị treo",
+    "server_off": "Bộ trợ giúp không kết nối",
+    "no_msg": "Không nhận được tin nhắn",
+    "no_res": "không có kết quả nào được tìm thấy",
+    "try_again": "Thử lại",
+    "inv_client_token": "Mã thông báo khách hàng không hợp lệ",
+    "inv_admin_token": "Mã thông báo quản trị viên không hợp lệ",
+    "not_set_client_token": "Chưa đặt mã thông báo khách hàng",
+    "not_set_admin_token": "Chưa đặt mã thông báo quản trị viên",
+    "create_new_token": "Tạo mã thông báo mới trong",
+    "api_page": "Truy cập trang API",
+    "set_new_token": "Đặt mã thông báo mới với `/ userconf`",
+    "server_down": "máy chủ đã sập",
+    "error_occurred": "Đã xảy ra lỗi",
+    "invalid_api_token": "Mã thông báo API không hợp lệ"
+  },
+  "not_found": {
+    "main": "Không tìm thấy",
+    "nest": "Không tìm thấy tổ",
+    "egg": "Không tìm thấy trứng",
+    "server": "Không tìm thấy máy chủ",
+    "user": "Không tìm thấy người dùng",
+    "template": "Không tìm thấy mẫu",
+    "node": "Không tìm thấy nút",
+    "owner": "Không tìm thấy chủ sở hữu",
+    "allocation": "Không tìm thấy phân bổ",
+    "backup": "Không tìm thấy bản sao lưu"
+  },
+  "pagination": {
+    "page": "Trang {{page}} / {{pages}}",
+    "refresh": "Làm cho khỏe lại",
+    "back": "Mặt sau",
+    "next": "Kế tiếp"
+  },
+  "help": {
+    "main": "Cung cấp tất cả các lệnh có sẵn và mô tả của chúng",
+    "category": "{{category}} Lệnh"
+  },
+  "set": {
+    "main": "Cài đặt máy chủ",
+    "settings": "Cài đặt máy chủ",
+    "admin_roles": "Vai trò quản trị viên",
+    "lng": "Ngôn ngữ",
+    "set_lng": "Cài ngôn ngữ",
+    "changed_lng": "Đã thay đổi ngôn ngữ thành {{lng}}",
+    "admin_role": {
+      "main": "Thêm hoặc xóa vai trò quản trị viên",
+      "add": "Thêm vai trò quản trị viên",
+      "rem": "Xóa vai trò quản trị viên",
+      "add_role": "Vai trò cần thêm",
+      "rem_role": "Vai trò cần loại bỏ",
+      "alrd_set": "Vai trò quản trị viên {{role}} đã được đặt",
+      "not_set": "Vai trò quản trị viên {{role}} không được thiết lập để sử dụng",
+      "added_role": "Đã thêm vai trò quản trị viên: {{role}}",
+      "removed_role": "Đã xóa vai trò quản trị viên: {{role}}",
+      "all_roles": "Tất cả các vai trò của quản trị viên: {{roles}}"
+    },
+    "tokens": "Mã thông báo",
+    "token": {
+      "main": "Đặt các mã thông báo cần thiết",
+      "client": "Mã thông báo khách hàng",
+      "admin": "Mã thông báo quản trị",
+      "show": "Hiển thị cài đặt",
+      "client_token": "Mã thông báo khách hàng: {{valid}}",
+      "admin_token": "Mã thông báo quản trị viên: {{valid}}",
+      "success": "Xác thực thành công và đặt mã thông báo",
+      "invalid": "(Các) mã thông báo đã cung cấp không hợp lệ"
+    },
+    "embedcolor": {
+      "main": "Đặt màu nhúng",
+      "color": "Nhúng màu",
+      "set_color": "Đặt màu nhúng: {{color}}"
+    }
+  },
+  "reboot": {
+    "main": "Khởi động lại bot",
+    "rebooting": "Khởi động lại bot"
+  },
+  "rename": {
+    "main": "Đổi tên máy chủ.",
+    "name": "Tên mới của máy chủ"
+  },
+  "userconf": {
+    "main": "Thiết lập người dùng",
+    "client_token": "Mã thông báo API ứng dụng khách Pterodactyl",
+    "admin": "Quản trị viên không cần sử dụng lệnh này. Mã thông báo API máy chủ được sử dụng thay thế.",
+    "settings": "Thiết lập người dùng",
+    "token": "Mã thông báo",
+    "not_set": "Không được thiết lập",
+    "token_set": "Mã thông báo hợp lệ và được đặt thành công",
+    "token_invalid": "Token không hợp lệ"
+  },
+  "send": {
+    "main": "Gửi lệnh đến máy chủ của bạn",
+    "command": "Một lệnh mà bạn muốn gửi đến máy chủ"
+  },
+  "ping": {
+    "main": "Độ trễ bot",
+    "discord_latency": "Độ trễ của Discord API"
+  },
+  "mylevel": {
+    "main": "Cung cấp cấp độ quyền của bạn",
+    "perm_level": "Cấp độ quyền của bạn là: {{level}} - {{levelName}}"
+  },
+  "validate": "Xác thực",
+  "servers": {
+    "main": "Hiển thị thông tin về máy chủ của bạn và kiểm soát chúng",
+    "send_command": "Gửi lệnh",
+    "console": "Bảng điều khiển",
+    "console_no_update": "Bảng điều khiển (Không cập nhật)",
+    "backup_created": "Đã tạo bản sao lưu",
+    "enter_cmd": "Nhập lệnh",
+    "option": "Tùy chọn {{nr}}",
+    "option_1": "Gửi lệnh trực tiếp trong trò chuyện. Chỉ sử dụng nếu bạn tin tưởng mọi người trong kênh, vì kênh sẽ hiển thị trong cuộc trò chuyện trong giây lát.",
+    "option_2": "Gửi lệnh bằng {{cmd}}",
+    "note": "Ghi chú",
+    "note_1": "Nếu bạn chọn tùy chọn 2, bạn sẽ phải đợi 60 giây hoặc gõ hủy trong cuộc trò chuyện để không kích hoạt gửi lệnh.",
+    "note_2": "Việc sử dụng {{cmd}} không được coi là lệnh và có thể được sử dụng lâu dài.",
+    "sel_server": "Chọn một máy chủ",
+    "search_multiple_res": "Tìm kiếm đã cung cấp nhiều kết quả. Chọn một."
+  },
+  "template": {
+    "main": "Quản lý mẫu",
+    "server": "Quản lý mẫu máy chủ",
+    "create": "Tạo một mẫu",
+    "delete": "Xóa mẫu",
+    "show": "Hiển thị một mẫu",
+    "name": "Tên của mẫu",
+    "cpu": "Đặt giới hạn CPU (Mặc định không giới hạn)",
+    "memory": "Đặt giới hạn MEMORY (Mặc định không giới hạn)",
+    "disk": "Đặt giới hạn DISK (Mặc định không giới hạn)",
+    "swap": "Đặt giới hạn SWAP (Mặc định không giới hạn)",
+    "backup": "Đặt giới hạn sao lưu (0 theo mặc định)",
+    "allocation": "Đặt giới hạn phân bổ (0 theo mặc định)",
+    "database": "Đặt giới hạn cơ sở dữ liệu (0 theo mặc định)",
+    "sel_nest": "Chọn một tổ cho mẫu này",
+    "sel_egg": "Chọn một quả trứng cho mẫu này",
+    "sel_docker": "Chọn một hình ảnh docker cho mẫu này",
+    "type_value": "Nhập giá trị của bạn trong cuộc trò chuyện",
+    "for_default": "Đối với mục đích sử dụng mặc định {{default}} và sử dụng trống {{empty}}",
+    "rules": "Quy tắc",
+    "default_val": "Giá trị mặc định",
+    "success_del": "Đã xóa mẫu thành công"
+  },
+  "create": {
+    "main": "Tạo người dùng hoặc máy chủ mới",
+    "user": "Tạo người dùng",
+    "email": "Địa chỉ email của người dùng",
+    "username": "Tên người dùng",
+    "first_name": "Tên người dùng",
+    "last_name": "Họ của người dùng",
+    "admin": "Người dùng có phải là quản trị viên không (mặc định là false)",
+    "password": "Mật khẩu người dùng. Nếu không được đặt, người dùng sẽ nhận được một email",
+    "server": "Tạo máy chủ",
+    "template": "Mẫu của máy chủ",
+    "name": "Tên của máy chủ",
+    "node": "Tên của nút bạn muốn tạo máy chủ",
+    "owner": "Tên người dùng của chủ sở hữu",
+    "sel_node": "Chọn một nút",
+    "sel_owner": "Chọn chủ sở hữu cho máy chủ",
+    "no_free_alloc": "Không tìm thấy phân bổ miễn phí"
+  },
+  "console": "Bảng điều khiển máy chủ",
+  "ausers": {
+    "main": "Hiển thị thông tin về tất cả người dùng và kiểm soát họ",
+    "username": "Tìm kiếm người dùng bằng tên người dùng",
+    "email": "Tìm kiếm người dùng qua email"
+  },
+  "aservers": {
+    "main": "Hiển thị thông tin về tất cả các máy chủ và kiểm soát chúng",
+    "name": "Tìm kiếm máy chủ theo tên",
+    "suspend": "Đình chỉ",
+    "unsuspend": "Không sử dụng",
+    "reinstall": "Cài đặt lại"
+  },
+  "anodes": {
+    "main": "Hiển thị thông tin về tất cả các nút",
+    "name": "Tìm kiếm nút theo tên",
+    "uuid": "Tìm kiếm nút theo uuid"
+  },
+  "aeggs": {
+    "main": "Hiển thị thông tin về tất cả các quả trứng",
+    "sel_nest": "Chọn một tổ"
+  },
+  "backups": {
+    "main": "Hiển thị thông tin về các bản sao lưu của máy chủ của bạn và kiểm soát chúng",
+    "create": "Tạo bản sao",
+    "download": "Tải xuống bản sao lưu",
+    "delete": "Xóa bản sao lưu",
+    "restore": "Khôi phục lại bản sao lưu",
+    "lock": "Khóa sao lưu",
+    "unlock": "Mở khóa sao lưu"
+  }
+}
