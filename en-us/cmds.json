@@ -37,7 +37,10 @@
     "set_new_token": "Set a new token with `/userconf`",
     "server_down": "Server is down",
     "error_occurred": "An error occurred",
-    "invalid_api_token": "Invalid API token"
+    "invalid_api_token": "Invalid API token",
+    "channel_not_text": "Channel must be a text channel",
+    "no_live_servers": "No live servers found",
+    "live_server_not_found": "Live server {{ name }} not found"
   },
   "not_found": {
     "main": "Not Found",
@@ -210,5 +213,13 @@
     "restore": "Restore Backup",
     "lock": "Lock Backup",
     "unlock": "Unlock Backup"
+  },
+  "liveserver": {
+    "main": "Manage live servers",
+    "setup": "Setup a live server",
+    "delete": "Delete a live server",
+    "channel": "Channel to send the live server message to",
+    "set_up": "Live Server {{ name }} set up",
+    "deleted": "Live Server {{ name }} deleted"
   }
 }
