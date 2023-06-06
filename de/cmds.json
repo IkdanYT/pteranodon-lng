@@ -5,17 +5,17 @@
   "bot_creator": "Bot-Ersteller",
   "miscelaneous": "Verschiedenes",
   "pterodactyl_admin": "Pterodactyl Admin",
-  "pterodactyl": "Pterodaktylus",
+  "pterodactyl": "Pterodactyl",
   "common": {
     "search_server_*": "Suchen Sie nach Server anhand von Name, UUID external_id",
     "valid": "Gültig",
     "invalid": "Ungültig",
     "error": "Fehler",
-    "refresh": "Auffrischen",
+    "refresh": "Neu laden",
     "start": "Anfangen",
     "restart": "Neustarten",
-    "stop": "Aufhören",
-    "kill": "Töten",
+    "stop": "Stop",
+    "kill": "Hard Stop",
     "cmd_sent": "Befehl gesendet"
   },
   "errors": {
@@ -37,25 +37,25 @@
     "set_new_token": "Legen Sie ein neues Token mit '/userconf' fest",
     "server_down": "Server ist ausgefallen",
     "error_occurred": "Ein Fehler ist aufgetreten",
-    "invalid_api_token": "Ungültiges API-Token"
+    "invalid_api_token": "Ungültiger API-Token"
   },
   "not_found": {
     "main": "Nicht gefunden",
     "nest": "Keine Nester gefunden",
-    "egg": "Keine Eier gefunden",
+    "egg": "Keine Eggs gefunden",
     "server": "Keine Server gefunden",
     "user": "Keine Benutzer gefunden",
     "template": "Vorlage nicht gefunden",
-    "node": "Knoten nicht gefunden",
+    "node": "Node nicht gefunden",
     "owner": "Besitzer nicht gefunden",
-    "allocation": "Keine Zuordnungen gefunden",
-    "backup": "Keine Sicherungen gefunden"
+    "allocation": "Keine Zuweisung gefunden",
+    "backup": "Keine Backups gefunden"
   },
   "pagination": {
     "page": "Seite {{page}} / {{pages}}",
-    "refresh": "Auffrischen",
+    "refresh": "Neu laden",
     "back": "Zurück",
-    "next": "Nächster"
+    "next": "Nächste"
   },
   "help": {
     "main": "Gibt alle verfügbaren Befehle und deren Beschreibungen an",
@@ -152,7 +152,7 @@
     "show": "Anzeigen einer Vorlage",
     "name": "Name der Vorlage",
     "cpu": "CPU-Limit festlegen (Unlimited-Standard)",
-    "memory": "Festlegen des SPEICHERlimits (Unbegrenzte Standardeinstellung)",
+    "memory": "Festlegen des Speicherlimits (Unbegrenzte Standardeinstellung)",
     "disk": "Festlegen des DISK-Limits (Unbegrenzter Standardwert)",
     "swap": "SWAP-Limit festlegen (Unbegrenzter Standardwert)",
     "backup": "Backup-Limit festlegen (standardmäßig 0)",
@@ -174,16 +174,16 @@
     "username": "Benutzername des Benutzers",
     "first_name": "Vorname des Benutzers",
     "last_name": "Nachname des Benutzers",
-    "admin": "Ist der Benutzer admin (Standard false)",
+    "admin": "Ist der Benutzer admin (Standard: false)",
     "password": "Benutzerkennwort. Wenn nicht festgelegt, erhält der Benutzer eine E-Mail",
     "server": "Erstellen eines Servers",
     "template": "Vorlage des Servers",
     "name": "Name des Servers",
-    "node": "Name des Knotens, auf dem Sie den Server erstellen möchten",
+    "node": "Name der Node, auf dem Sie den Server erstellen möchten",
     "owner": "Benutzername des Eigentümers",
-    "sel_node": "Auswählen eines Knotens",
-    "sel_owner": "Auswählen eines Eigentümers für den Server",
-    "no_free_alloc": "Keine kostenlosen Zuteilungen gefunden"
+    "sel_node": "Node",
+    "sel_owner": "Eigentümers für den Server",
+    "no_free_alloc": "Keine verfügbaren Zuteilungen gefunden"
   },
   "console": "Serverkonsole",
   "ausers": {
@@ -194,14 +194,14 @@
   "aservers": {
     "main": "Anzeigen von Informationen zu allen Servern und deren Steuerung",
     "name": "Suche nach Server nach Name",
-    "suspend": "Aufhängen",
-    "unsuspend": "Unverbrauch aufheben",
+    "suspend": "Suspendierung",
+    "unsuspend": "Suspendierung aufheben",
     "reinstall": "Neuinstallieren"
   },
   "anodes": {
-    "main": "Anzeigen von Informationen zu allen Knoten",
-    "name": "Knoten anhand des Namens suchen",
-    "uuid": "Suchen nach Knoten nach uuid"
+    "main": "Anzeigen von Informationen zu allen Nodes",
+    "name": "Nodes anhand des Namens suchen",
+    "uuid": "Suchen nach Nodes nach uuid"
   },
   "aeggs": {
     "main": "Informationen über alle Eier anzeigen",
@@ -211,9 +211,9 @@
     "main": "Zeigen Sie Informationen über die Backups Ihres Servers an und kontrollieren Sie sie",
     "create": "Ein Backup erstellen",
     "download": "Backup herunterladen",
-    "delete": "Sicherung löschen",
+    "delete": "Backup löschen",
     "restore": "Backup wiederherstellen",
     "lock": "Sicherung sperren",
-    "unlock": "Sicherung entsperren"
+    "unlock": "Backups entsperren"
   }
 }
