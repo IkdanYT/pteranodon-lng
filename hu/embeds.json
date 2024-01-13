@@ -38,5 +38,6 @@
   "ignored_files": "figyelmen kívül hagyott fájlok",
   "created": "létre",
   "cpu_cores": "cpu magok",
-  "active_servers": "aktív szerverek"
+  "active_servers": "aktív szerverek",
+  "uptime": "Üzemidő"
 }

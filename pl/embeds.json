@@ -38,5 +38,6 @@
   "ignored_files": "ignorowane pliki",
   "created": "Utworzony",
   "cpu_cores": "rdzenie procesora",
-  "active_servers": "aktywne serwery"
+  "active_servers": "aktywne serwery",
+  "uptime": "Czas sprawności"
 }

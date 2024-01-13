@@ -38,5 +38,6 @@
   "ignored_files": "ignoruojami failai",
   "created": "sukurtas",
   "cpu_cores": "procesoriaus branduoliai",
-  "active_servers": "aktyvūs serveriai"
+  "active_servers": "aktyvūs serveriai",
+  "uptime": "Veikimo laikas"
 }
