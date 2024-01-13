@@ -37,7 +37,10 @@
     "set_new_token": "Új jogkivonat beállítása a\"/userconf' beállítással",
     "server_down": "A kiszolgáló leállt",
     "error_occurred": "Hiba történt",
-    "invalid_api_token": "Érvénytelen API-jogkivonat"
+    "invalid_api_token": "Érvénytelen API-jogkivonat",
+    "channel_not_text": "A csatornának szöveges csatornának kell lennie",
+    "no_live_servers": "Nem találtunk élő szervereket",
+    "live_server_not_found": "Élő kiszolgáló {{ name }} nem található"
   },
   "not_found": {
     "main": "Nem található",
@@ -158,6 +161,7 @@
     "backup": "Biztonsági mentési korlát beállítása (alapértelmezés szerint 0)",
     "allocation": "Felosztási korlát beállítása (alapértelmezés szerint 0)",
     "database": "Adatbázis-korlát beállítása (alapértelmezés szerint 0)",
+    "autostart": "Kiszolgáló indítása a telepítés után (alapértelmezés szerint hamis)",
     "sel_nest": "A sablon fészkének kiválasztása",
     "sel_egg": "Válasszon egy tojást ehhez a sablonhoz",
     "sel_docker": "Válasszon egy docker-lemezképet ehhez a sablonhoz",
@@ -215,5 +219,13 @@
     "restore": "Biztonsági mentés visszaállítása",
     "lock": "Biztonsági mentés zárolása",
     "unlock": "Oldja fel a biztonsági mentést"
+  },
+  "liveserver": {
+    "main": "Élő szerverek kezelése",
+    "setup": "Élő kiszolgáló beállítása",
+    "delete": "Élő kiszolgáló törlése",
+    "channel": "Csatorna, ahová az élő szerver üzenetet küldeni kell",
+    "set_up": "Élő kiszolgáló {{ name }} beállítása",
+    "deleted": "Élő kiszolgáló {{ name }} törölve"
   }
 }

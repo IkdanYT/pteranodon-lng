@@ -37,7 +37,10 @@
     "set_new_token": "Defina um novo token com '/userconf'",
     "server_down": "Servidor está desligado",
     "error_occurred": "Ocorreu um erro",
-    "invalid_api_token": "Token de API inválido"
+    "invalid_api_token": "Token de API inválido",
+    "channel_not_text": "O canal deve ser um canal de texto",
+    "no_live_servers": "Não foram encontrados servidores activos",
+    "live_server_not_found": "Servidor em direto {{ name }} não encontrado"
   },
   "not_found": {
     "main": "Não encontrado",
@@ -158,6 +161,7 @@
     "backup": "Definir o limite de backup (0 por padrão)",
     "allocation": "Definir limite de alocação (0 por padrão)",
     "database": "Definir o limite do banco de dados (0 por padrão)",
+    "autostart": "Iniciar o servidor após a configuração (falso por predefinição)",
     "sel_nest": "Selecione um ninho para este modelo",
     "sel_egg": "Selecione um ovo para este modelo",
     "sel_docker": "Selecione uma imagem docker para este modelo",
@@ -215,5 +219,13 @@
     "restore": "Restaurar backup",
     "lock": "Bloquear Backup",
     "unlock": "Backup de desbloqueio"
+  },
+  "liveserver": {
+    "main": "Gerir servidores em direto",
+    "setup": "Configurar um servidor ativo",
+    "delete": "Eliminar um servidor ativo",
+    "channel": "Canal para onde enviar a mensagem do servidor em direto",
+    "set_up": "Servidor em direto {{ name }} configurado",
+    "deleted": "Servidor em direto {{ name }} eliminado"
   }
 }

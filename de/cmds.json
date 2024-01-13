@@ -37,7 +37,10 @@
     "set_new_token": "Legen Sie ein neues Token mit '/userconf' fest",
     "server_down": "Server ist ausgefallen",
     "error_occurred": "Ein Fehler ist aufgetreten",
-    "invalid_api_token": "Ungültiger API-Token"
+    "invalid_api_token": "Ungültiger API-Token",
+    "channel_not_text": "Kanal muss ein Textkanal sein",
+    "no_live_servers": "Keine aktiven Server gefunden",
+    "live_server_not_found": "Live-Server {{ name }} nicht gefunden"
   },
   "not_found": {
     "main": "Nicht gefunden",
@@ -158,6 +161,7 @@
     "backup": "Backup-Limit festlegen (standardmäßig 0)",
     "allocation": "Zuweisungslimit festlegen (standardmäßig 0)",
     "database": "Festlegen des Datenbanklimits (standardmäßig 0)",
+    "autostart": "Server nach der Einrichtung starten (standardmäßig falsch)",
     "sel_nest": "Auswählen einer Verschachtelung für diese Vorlage",
     "sel_egg": "Wählen Sie ein Ei für diese Vorlage",
     "sel_docker": "Auswählen eines Docker-Images für diese Vorlage",
@@ -215,5 +219,13 @@
     "restore": "Backup wiederherstellen",
     "lock": "Sicherung sperren",
     "unlock": "Backups entsperren"
+  },
+  "liveserver": {
+    "main": "Verwalten von Live-Servern",
+    "setup": "Einrichten eines Live-Servers",
+    "delete": "Einen Live-Server löschen",
+    "channel": "Kanal, an den die Live-Server-Nachricht gesendet werden soll",
+    "set_up": "Live Server {{ name }} einrichten",
+    "deleted": "Live Server {{ name }} gelöscht"
   }
 }

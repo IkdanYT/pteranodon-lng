@@ -37,7 +37,10 @@
     "set_new_token": "Ustaw nowy token za pomocą \"/userconf\"",
     "server_down": "Serwer jest wyłączony",
     "error_occurred": "Wystąpił błąd",
-    "invalid_api_token": "Nieprawidłowy token interfejsu API"
+    "invalid_api_token": "Nieprawidłowy token interfejsu API",
+    "channel_not_text": "Kanał musi być kanałem tekstowym",
+    "no_live_servers": "Nie znaleziono aktywnych serwerów",
+    "live_server_not_found": "Nie znaleziono serwera na żywo {{ name }}"
   },
   "not_found": {
     "main": "Nie znaleziono",
@@ -158,6 +161,7 @@
     "backup": "Ustaw limit kopii zapasowej (domyślnie 0)",
     "allocation": "Ustawianie limitu alokacji (domyślnie 0)",
     "database": "Ustawianie limitu bazy danych (domyślnie 0)",
+    "autostart": "Uruchom serwer po konfiguracji (domyślnie fałsz)",
     "sel_nest": "Wybierz gniazdo dla tego szablonu",
     "sel_egg": "Wybierz jajko dla tego szablonu",
     "sel_docker": "Wybierz obraz platformy dokowanej dla tego szablonu",
@@ -215,5 +219,13 @@
     "restore": "Przywracania kopii zapasowej",
     "lock": "Zablokuj kopię zapasową",
     "unlock": "Odblokuj kopię zapasową"
+  },
+  "liveserver": {
+    "main": "Zarządzanie serwerami na żywo",
+    "setup": "Konfiguracja serwera na żywo",
+    "delete": "Usuwanie serwera na żywo",
+    "channel": "Kanał, na który ma zostać wysłana wiadomość serwera na żywo",
+    "set_up": "Serwer na żywo {{ name }} skonfigurowany",
+    "deleted": "Serwer na żywo {{ name }} usunięty"
   }
 }

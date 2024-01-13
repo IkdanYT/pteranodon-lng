@@ -37,7 +37,10 @@
     "set_new_token": "Nustatyti naują atpažinimo ženklo su '/userconf'",
     "server_down": "Serveris uždarytas",
     "error_occurred": "Įvyko klaida",
-    "invalid_api_token": "Neleistinas API atpažinimo ženklas"
+    "invalid_api_token": "Neleistinas API atpažinimo ženklas",
+    "channel_not_text": "Kanalas turi būti teksto kanalas",
+    "no_live_servers": "Nerasta gyvų serverių",
+    "live_server_not_found": "Nerastas tiesioginės transliacijos serveris {{ name }}"
   },
   "not_found": {
     "main": "Nerasta",
@@ -158,6 +161,7 @@
     "backup": "Atsarginio kopijavimo limito nustatymas (0 pagal numatytuosius nustatymus)",
     "allocation": "Nustatyti paskirstymo limitą (0 pagal numatytuosius nustatymus)",
     "database": "Duomenų bazės limito nustatymas (0 pagal numatytuosius nustatymus)",
+    "autostart": "Paleisti serverį po sąrankos (pagal numatytuosius nustatymus - false)",
     "sel_nest": "Pasirinkite šio šablono lizdą",
     "sel_egg": "Pasirinkite šio šablono kiaušinį",
     "sel_docker": "Pasirinkite šio šablono docker vaizdą",
@@ -215,5 +219,13 @@
     "restore": "Atstatyti atsarginę kopiją",
     "lock": "Užrakinti atsarginę kopiją",
     "unlock": "Atrakinkite atsarginę kopiją"
+  },
+  "liveserver": {
+    "main": "Tvarkykite gyvus serverius",
+    "setup": "Nustatykite gyvą serverį",
+    "delete": "Ištrinti gyvą serverį",
+    "channel": "Kanalas, į kurį siunčiamas tiesioginio serverio pranešimas",
+    "set_up": "Tiesioginės transliacijos serverio {{ name }} nustatymas",
+    "deleted": "Tiesioginis serveris {{ name }} ištrintas"
   }
 }

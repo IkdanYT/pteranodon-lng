@@ -37,7 +37,10 @@
     "set_new_token": "Définissez un nouveau token avec '/userconf'",
     "server_down": "Le serveur est en panne",
     "error_occurred": "Une erreur s’est produite",
-    "invalid_api_token": "Token d'API non valide"
+    "invalid_api_token": "Token d'API non valide",
+    "channel_not_text": "Le canal doit être un canal de texte",
+    "no_live_servers": "Pas de serveurs actifs trouvés",
+    "live_server_not_found": "Serveur live {{ name }} introuvable"
   },
   "not_found": {
     "main": "Introuvable",
@@ -158,6 +161,7 @@
     "backup": "Définir la limite de SAUVEGARDE (0 par défaut)",
     "allocation": "Définir la limite d’ALLOCATION (0 par défaut)",
     "database": "Définir la limite de BASE DE DONNÉES (0 par défaut)",
+    "autostart": "Démarrer le serveur après l'installation (faux par défaut)",
     "sel_nest": "Sélectionner un nid (nest) pour ce modèle",
     "sel_egg": "Sélectionnez un œuf (egg) pour ce modèle",
     "sel_docker": "Sélectionnez une image docker pour ce modèle",
@@ -215,5 +219,13 @@
     "restore": "Restaurer la sauvegarde",
     "lock": "Verrouiller la sauvegarde",
     "unlock": "Déverrouiller la sauvegarde"
+  },
+  "liveserver": {
+    "main": "Gérer des serveurs en direct",
+    "setup": "Mise en place d'un serveur live",
+    "delete": "Supprimer un serveur en direct",
+    "channel": "Canal auquel envoyer le message du serveur en direct",
+    "set_up": "Serveur Live {{ name }} mis en place",
+    "deleted": "Serveur Live {{ name }} supprimé"
   }
 }
