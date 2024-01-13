@@ -25,6 +25,7 @@
     "timeout": "Timeout",
     "server_susp": "Serveur suspendu",
     "server_off": "Serveur hors connexion",
+    "node_off": "Nœud hors ligne",
     "no_msg": "Aucun message reçu",
     "no_res": "Aucun résultat trouvé",
     "try_again": "Réessayez",

@@ -25,6 +25,7 @@
     "timeout": "Időkorlát",
     "server_susp": "A kiszolgáló felfüggesztve",
     "server_off": "Kiszolgáló kapcsolat nélküli",
+    "node_off": "Csomópont offline",
     "no_msg": "Nem érkezett üzenet",
     "no_res": "Nem található eredmény",
     "try_again": "Próbáld újra",

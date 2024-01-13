@@ -25,6 +25,7 @@
     "timeout": "Skirtasis laikas",
     "server_susp": "Serveris sustabdytas",
     "server_off": "Serveris neprisijungęs",
+    "node_off": "Mazgas neprisijungęs",
     "no_msg": "Negautas joks pranešimas",
     "no_res": "Rezultatų nerasta",
     "try_again": "Pabandyk dar kartą",

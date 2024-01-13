@@ -25,6 +25,7 @@
     "timeout": "Limit czasu",
     "server_susp": "Serwer zawieszony",
     "server_off": "Serwer w trybie offline",
+    "node_off": "Węzeł offline",
     "no_msg": "Nie otrzymano żadnej wiadomości",
     "no_res": "Nie znaleziono wyników",
     "try_again": "Spróbuj ponownie",

@@ -25,6 +25,7 @@
     "timeout": "Zeitüberschreitung",
     "server_susp": "Server angehalten",
     "server_off": "Server offline",
+    "node_off": "Knoten offline",
     "no_msg": "Keine Nachricht empfangen",
     "no_res": "Keine Ergebnisse gefunden",
     "try_again": "Wiederholen",

@@ -25,6 +25,7 @@
     "timeout": "Timeout",
     "server_susp": "Servidor suspenso",
     "server_off": "Servidor off-line",
+    "node_off": "Nó offline",
     "no_msg": "Nenhuma mensagem recebida",
     "no_res": "Nenhum resultado encontrado",
     "try_again": "Tentar novamente",

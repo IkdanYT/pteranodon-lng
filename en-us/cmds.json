@@ -25,6 +25,7 @@
     "timeout": "Timeout",
     "server_susp": "Server is suspended",
     "server_off": "Server offline",
+    "node_off": "Node offline",
     "no_msg": "No message received",
     "no_res": "No results found",
     "try_again": "Try again",
@@ -100,7 +101,10 @@
       "set_color": "Set embed color: {{color}}"
     }
   },
-  "reboot": { "main": "Reboot the bot", "rebooting": "Rebooting the bot" },
+  "reboot": {
+    "main": "Reboot the bot",
+    "rebooting": "Rebooting the bot"
+  },
   "rename": {
     "main": "Rename a server.",
     "name": "The new name of the server"
@@ -119,7 +123,10 @@
     "main": "Send a command to your server",
     "command": "A command that you want to send to the server"
   },
-  "ping": { "main": "Bot latency", "discord_latency": "Discord API Latency" },
+  "ping": {
+    "main": "Bot latency",
+    "discord_latency": "Discord API Latency"
+  },
   "mylevel": {
     "main": "Gives your permission level",
     "perm_level": "Your permission level is: {{level}} - {{levelName}}"
