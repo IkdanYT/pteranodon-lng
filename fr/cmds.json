@@ -5,9 +5,9 @@
   "bot_creator": "Créateur du bot",
   "miscelaneous": "Divers",
   "pterodactyl_admin": "Administrateur Pterodactyl",
-  "pterodactyl": "Pterodactyle",
+  "pterodactyl": "Pterodactyl",
   "common": {
-    "search_server_*": "Rechercher le serveur par nom, uuid, external_id",
+    "search_server_*": "Rechercher le serveur par nom, UUID ou identifiant externe",
     "valid": "Valide",
     "invalid": "Non valide",
     "error": "Erreur",
@@ -22,7 +22,7 @@
     "perm_error": "Vous n’êtes pas autorisé à utiliser cette commande.",
     "perm_error_has": "Votre niveau d’autorisation est {{level}} ({{levelName}})",
     "perm_error_req": "Cette commande nécessite le niveau {{level}} ({{levelName}})",
-    "timeout": "Timeout",
+    "timeout": "Délai d'attente dépassé",
     "server_susp": "Serveur suspendu",
     "server_off": "Serveur hors connexion",
     "node_off": "Nœud hors ligne",
@@ -98,7 +98,7 @@
     "embedcolor": {
       "main": "Définir la couleur d’intégration",
       "color": "Couleur d’intégration",
-      "set_color": "Définir la couleur d’intégration: {{color}}"
+      "set_color": "Définir la couleur d’intégration : {{color}}"
     }
   },
   "reboot": {
@@ -111,7 +111,7 @@
   },
   "userconf": {
     "main": "Paramètres utilisateur",
-    "client_token": "Token d'API client pterodactyle",
+    "client_token": "Token d'API client Pterodactyl",
     "admin": "Les administrateurs n’ont pas besoin d’utiliser cette commande. Le token d'API du serveur est utilisé à la place.",
     "settings": "Paramètres utilisateur",
     "token": "Token",
@@ -136,11 +136,11 @@
     "main": "Afficher des informations sur vos serveurs et les contrôler",
     "send_command": "Envoyer une commande",
     "console": "Afficher la console",
-    "console_no_update": "Console (pas de rafraichissement)",
+    "console_no_update": "Console (pas de rafraîchissement)",
     "backup_created": "Sauvegarde créée",
     "enter_cmd": "Entrez une commande",
     "option": "Option {{nr}}",
-    "option_1": "Envoyez la commande directement dans le tchat. N’utilisez que si vous faites confiance aux personnes du channel, car il apparaîtra dans le chat pendant une seconde.",
+    "option_1": "Envoyez la commande directement dans le tchat. N’utilisez que si vous faites confiance aux personnes du canal, car il apparaîtra dans le chat pendant une seconde.",
     "option_2": "Envoyez la commande à l’aide de `/send`",
     "note": "Note",
     "note_1": "Si vous choisissez l’option 2, vous devrez soit attendre 60s ou taper 'cancel' dans le tchat pour ne pas déclencher l’envoi de commande.",
@@ -156,19 +156,19 @@
     "show": "Afficher les modèles",
     "name": "Nom du modèle",
     "cpu": "Définir la limite du CPU (valeur par défaut illimitée)",
-    "memory": "Définir la limite de MÉMOIRE (valeur par défaut illimitée)",
+    "memory": "Définir la limite de MÉMOIRE VIVE (valeur par défaut illimitée)",
     "disk": "Définir la limite de DISQUE (valeur par défaut illimitée)",
-    "swap": "Définir la limite SWAP (valeur par défaut illimitée)",
-    "backup": "Définir la limite de SAUVEGARDE (0 par défaut)",
-    "allocation": "Définir la limite d’ALLOCATION (0 par défaut)",
+    "swap": "Définir la limite d'ESCAPE D'ÉCHANGE (swap, valeur par défaut illimitée)",
+    "backup": "Définir la limite de SAUVEGARDES (0 par défaut)",
+    "allocation": "Définir la limite d’ALLOCATIONS (0 par défaut)",
     "database": "Définir la limite de BASE DE DONNÉES (0 par défaut)",
-    "autostart": "Démarrer le serveur après l'installation (faux par défaut)",
+    "autostart": "Démarrer le serveur après l'installation (non par défaut)",
     "sel_nest": "Sélectionner un nid (nest) pour ce modèle",
     "sel_egg": "Sélectionnez un œuf (egg) pour ce modèle",
     "sel_docker": "Sélectionnez une image docker pour ce modèle",
     "type_value": "Tapez votre valeur dans le tchat",
     "for_default": "Pour l’utilisation par défaut {{default}} et pour l’utilisation vide {{empty}}",
-    "rules": "Règlement",
+    "rules": "Règles",
     "default_val": "Valeur par défaut",
     "success_del": "Modèle supprimé avec succès"
   },
@@ -178,7 +178,7 @@
     "email": "Adresse e-mail de l’utilisateur",
     "username": "Pseudo de l'utilisateur",
     "first_name": "Prénom de l’utilisateur",
-    "last_name": "Nom de l’utilisateur",
+    "last_name": "Nom de famille de l’utilisateur",
     "admin": "L'utilisateur est-il un administrateur ? ('false' [non] par défaut, utilisez 'true' pour oui)",
     "password": "Mot de passe utilisateur. S’il n’est pas défini, l’utilisateur recevra un e-mail",
     "server": "Créer un serveur",
@@ -206,7 +206,7 @@
   "anodes": {
     "main": "Informations sur les nœuds (nodes)",
     "name": "Rechercher un nœud (node) par nom",
-    "uuid": "Rechercher un nœud (node) par uuid"
+    "uuid": "Rechercher un nœud (node) par UUID"
   },
   "aeggs": {
     "main": "Informations sur les œufs (eggs)",
