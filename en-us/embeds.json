@@ -39,5 +39,15 @@
   "created": "created",
   "cpu_cores": "cpu cores",
   "active_servers": "active servers",
-  "uptime": "Uptime"
+  "uptime": "Uptime",
+  "s": "second",
+  "ss": "seconds",
+  "m": "minute",
+  "mm": "minutes",
+  "h": "hour",
+  "hh": "hours",
+  "d": "day",
+  "dd": "days",
+  "w": "week",
+  "ww": "weeks"
 }
