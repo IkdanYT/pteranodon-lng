@@ -39,5 +39,15 @@
   "created": "létre",
   "cpu_cores": "cpu magok",
   "active_servers": "aktív szerverek",
-  "uptime": "Üzemidő"
+  "uptime": "Üzemidő",
+  "s": "második",
+  "ss": "másodpercek",
+  "m": "perc",
+  "mm": "percek",
+  "h": "óra",
+  "hh": "órák",
+  "d": "nap",
+  "dd": "napok",
+  "w": "hét",
+  "ww": "hetek"
 }

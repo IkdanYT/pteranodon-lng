@@ -39,5 +39,15 @@
   "created": "sukurtas",
   "cpu_cores": "procesoriaus branduoliai",
   "active_servers": "aktyvūs serveriai",
-  "uptime": "Veikimo laikas"
+  "uptime": "Veikimo laikas",
+  "s": "sekundė",
+  "ss": "sekundės",
+  "m": "minutė",
+  "mm": "minutės",
+  "h": "valanda",
+  "hh": "valandos",
+  "d": "diena",
+  "dd": "dienos",
+  "w": "savaitė",
+  "ww": "savaitės"
 }

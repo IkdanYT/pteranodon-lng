@@ -39,5 +39,15 @@
   "created": "Utworzony",
   "cpu_cores": "rdzenie procesora",
   "active_servers": "aktywne serwery",
-  "uptime": "Czas sprawności"
+  "uptime": "Czas sprawności",
+  "s": "sekund",
+  "ss": "sekundy",
+  "m": "minuta",
+  "mm": "minuty",
+  "h": "godzina",
+  "hh": "godziny",
+  "d": "dzień",
+  "dd": "dni",
+  "w": "tydzień",
+  "ww": "tygodnie"
 }

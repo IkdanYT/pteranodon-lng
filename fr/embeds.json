@@ -39,5 +39,15 @@
   "created": "créé",
   "cpu_cores": "Coeurs CPU",
   "active_servers": "serveurs actifs",
-  "uptime": "Temps de fonctionnement"
+  "uptime": "Temps de fonctionnement",
+  "s": "second",
+  "ss": "secondes",
+  "m": "minute",
+  "mm": "minutes",
+  "h": "heure",
+  "hh": "heures",
+  "d": "jour",
+  "dd": "jours",
+  "w": "semaine",
+  "ww": "semaines"
 }
