@@ -1,0 +1,232 @@
+{
+  "administrator": "管理员",
+  "user": "用户",
+  "server_owner": "服务器所有者",
+  "bot_creator": "机器人创建者",
+  "miscelaneous": "杂项",
+  "pterodactyl_admin": "翼龙管理员",
+  "pterodactyl": "翼手龙",
+  "common": {
+    "search_server_*": "按名称、uuid、外部 ID 搜索服务器",
+    "valid": "有效",
+    "invalid": "无效",
+    "error": "错误",
+    "refresh": "刷新",
+    "start": "开始",
+    "restart": "重新启动",
+    "stop": "停止",
+    "kill": "杀戮",
+    "cmd_sent": "发送命令"
+  },
+  "errors": {
+    "perm_error": "您没有权限使用此命令。",
+    "perm_error_has": "您的权限级别是 {{level}} ({{levelName}})",
+    "perm_error_req": "此命令需要 {{level}} 级别 ({{levelName}})",
+    "timeout": "超时",
+    "server_susp": "服务器暂停",
+    "server_off": "服务器离线",
+    "node_off": "节点离线",
+    "no_msg": "未收到信息",
+    "no_res": "未找到结果",
+    "try_again": "再试一次",
+    "inv_client_token": "客户端令牌无效",
+    "inv_admin_token": "无效的管理员令牌",
+    "not_set_client_token": "未设置客户令牌",
+    "not_set_admin_token": "未设置管理员令牌",
+    "create_new_token": "在",
+    "api_page": "访问应用程序接口页面",
+    "set_new_token": "使用 `/userconf` 设置新的令牌",
+    "server_down": "服务器停机",
+    "error_occurred": "发生错误",
+    "invalid_api_token": "无效的应用程序接口令牌",
+    "channel_not_text": "频道必须是文本频道",
+    "no_live_servers": "未找到实时服务器",
+    "live_server_not_found": "未找到实时服务器 {{ name }}"
+  },
+  "not_found": {
+    "main": "未找到",
+    "nest": "未发现巢穴",
+    "egg": "没有发现鸡蛋",
+    "server": "未找到服务器",
+    "user": "未找到用户",
+    "template": "未找到模板",
+    "node": "未找到节点",
+    "owner": "未找到所有者",
+    "allocation": "未找到分配",
+    "backup": "未找到备份"
+  },
+  "pagination": {
+    "page": "第 {{page}} 页 / {{pages}} 页",
+    "refresh": "刷新",
+    "back": "返回",
+    "next": "下一页"
+  },
+  "help": {
+    "main": "提供所有可用命令及其说明",
+    "category": "{{category}} 命令"
+  },
+  "set": {
+    "main": "服务器设置",
+    "settings": "服务器设置",
+    "admin_roles": "管理员角色",
+    "lng": "语言",
+    "set_lng": "设置语言",
+    "changed_lng": "语言更改为{{lng}}。",
+    "admin_role": {
+      "main": "添加或删除管理员角色",
+      "add": "添加管理员角色",
+      "rem": "删除管理员角色",
+      "add_role": "增加的作用",
+      "rem_role": "去除的作用",
+      "alrd_set": "管理员角色 {{role}} 已设置",
+      "not_set": "管理员角色 {{role}} 未设置为使用",
+      "added_role": "已添加管理员角色：{{role}}",
+      "removed_role": "删除管理员角色：{{role}}",
+      "all_roles": "所有管理员角色：{{roles}}"
+    },
+    "tokens": "代币",
+    "token": {
+      "main": "设置所需的令牌",
+      "client": "客户令牌",
+      "admin": "管理员令牌",
+      "show": "显示设置",
+      "client_token": "客户端令牌：{{valid}}",
+      "admin_token": "管理员令牌：{{valid}}",
+      "success": "成功验证和设置令牌",
+      "invalid": "提供的令牌无效"
+    },
+    "embedcolor": {
+      "main": "设置嵌入颜色",
+      "color": "嵌入颜色",
+      "set_color": "设置嵌入颜色：<span>0</span"
+    }
+  },
+  "reboot": {
+    "main": "重启机器人",
+    "rebooting": "重启机器人"
+  },
+  "rename": {
+    "main": "重命名服务器。",
+    "name": "服务器的新名称"
+  },
+  "userconf": {
+    "main": "用户设置",
+    "client_token": "翼龙客户端应用程序接口令牌",
+    "admin": "管理员无需使用此命令。服务器 API 令牌将被替代使用。",
+    "settings": "用户设置",
+    "token": "代币",
+    "not_set": "未设置",
+    "token_set": "令牌有效并成功设置",
+    "token_invalid": "令牌无效"
+  },
+  "send": {
+    "main": "向服务器发送命令",
+    "command": "要发送到服务器的命令"
+  },
+  "ping": {
+    "main": "机器人延迟",
+    "discord_latency": "Discord API 延迟"
+  },
+  "mylevel": {
+    "main": "提供您的权限级别",
+    "perm_level": "您的权限级别是{{level}} - {{levelName}}"
+  },
+  "validate": "验证",
+  "servers": {
+    "main": "显示服务器信息并对其进行控制",
+    "send_command": "发送命令",
+    "console": "控制台",
+    "console_no_update": "控制台（未更新）",
+    "backup_created": "创建备份",
+    "enter_cmd": "输入命令",
+    "option": "选项 <span>0</span",
+    "option_1": "直接在聊天中发送命令。只有在你信任频道中的人时才能使用，因为它会在聊天中显示一秒钟。",
+    "option_2": "使用 {{cmd}} 发送命令",
+    "note": "备注",
+    "note_1": "如果您选择了选项 2，就必须等待 60 秒或在聊天中键入取消才能不触发命令的发送。",
+    "note_2": "使用 {{cmd}} 不算命令，可以立即使用。",
+    "sel_server": "选择服务器",
+    "search_multiple_res": "搜索有多个结果。请选择一个。"
+  },
+  "template": {
+    "main": "管理模板",
+    "server": "管理服务器模板",
+    "create": "创建模板",
+    "delete": "删除模板",
+    "show": "显示模板",
+    "name": "模板名称",
+    "cpu": "设置 CPU 限制（默认无限制）",
+    "memory": "设置内存限制（默认为无限）",
+    "disk": "设置磁盘限制（默认为无限制）",
+    "swap": "设置 SWAP 限制（默认为无限制）",
+    "backup": "设置备份限制（默认为 0）",
+    "allocation": "设置分配限制（默认为 0）",
+    "database": "设置数据库限制（默认为 0）",
+    "autostart": "设置后启动服务器（默认为假）",
+    "sel_nest": "为该模板选择一个巢",
+    "sel_egg": "为该模板选择彩蛋",
+    "sel_docker": "为该模板选择一个 docker 镜像",
+    "type_value": "在聊天中键入您的值",
+    "for_default": "默认值使用 {{default}}，空值使用 <span>1</span",
+    "rules": "规则",
+    "default_val": "默认值",
+    "success_del": "成功删除模板"
+  },
+  "create": {
+    "main": "创建新用户或服务器",
+    "user": "创建用户",
+    "email": "用户电子邮件地址",
+    "username": "用户名",
+    "first_name": "用户名",
+    "last_name": "用户姓氏",
+    "admin": "用户是否为管理员（默认为 false）",
+    "password": "用户密码。如果未设置，用户将收到一封电子邮件",
+    "server": "创建服务器",
+    "template": "服务器模板",
+    "name": "服务器名称",
+    "node": "要在其上创建服务器的节点名称",
+    "owner": "所有者的用户名",
+    "sel_node": "选择节点",
+    "sel_owner": "为服务器选择所有者",
+    "no_free_alloc": "未找到空闲分配"
+  },
+  "console": "服务器控制台",
+  "ausers": {
+    "main": "显示所有用户的信息并对其进行控制",
+    "username": "按用户名搜索用户",
+    "email": "通过电子邮件搜索用户"
+  },
+  "aservers": {
+    "main": "显示所有服务器的信息并控制它们",
+    "name": "按名称搜索服务器",
+    "suspend": "暂停",
+    "unsuspend": "取消悬挂",
+    "reinstall": "重新安装"
+  },
+  "anodes": {
+    "main": "显示所有节点的信息",
+    "name": "按名称搜索节点",
+    "uuid": "按 uuid 搜索节点"
+  },
+  "aeggs": {
+    "main": "显示所有彩蛋的信息",
+    "sel_nest": "选择巢穴"
+  },
+  "backups": {
+    "main": "显示服务器备份信息并对其进行控制",
+    "create": "创建备份",
+    "download": "下载备份",
+    "delete": "删除备份",
+    "restore": "恢复备份",
+    "lock": "锁备份",
+    "unlock": "解锁备份"
+  },
+  "liveserver": {
+    "main": "管理实时服务器",
+    "setup": "设置实时服务器",
+    "delete": "删除实时服务器",
+    "channel": "将实时服务器信息发送到的通道",
+    "set_up": "设置实时服务器 {{ name }}",
+    "deleted": "实时服务器 {{ name }} 已删除"
+  }
+}
